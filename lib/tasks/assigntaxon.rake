@@ -2,8 +2,8 @@ require 'csv'
 
 desc "Imports a CSV file into an ActiveRecord table"
 
-task :assigntaxonnow, [:filename] => :environment do
-		CSV.foreach('id_boss_new.csv', :headers => true) do |row|
+task :assigntaxon, [:filename] => :environment do
+		CSV.foreach('finish1_classification.csv', :headers => true) do |row|
 		Spree::Classification.create!(row.to_hash)
 	end
 end
