@@ -1,0 +1,47 @@
+<style type="text/css">
+.hidden { display: none; }
+.alert-error {
+background-color: #f2dede;
+border-color: #eed3d7;
+color: #b94a48;
+text-align: left;
+}
+
+.alert-alert {
+background-color: #f2dede;
+border-color: #eed3d7;
+color: #b94a48;
+text-align: left;
+}
+
+.alert-success {
+background-color: #dff0d8;
+border-color: #d6e9c6;
+color: #468847;
+text-align: left;
+}
+
+.alert-notice {
+background-color: #dff0d8;
+border-color: #d6e9c6;
+color: #468847;
+text-align: left;
+}
+</style>
+
+<div align="center">
+  <h3>Send A message to Us</h3>
+
+  <%= simple_form_for @contact, :html => {:class => 'form-horizontal' } do |f| %>
+    <%= f.input :name, :required => true %>
+    <%= f.input :email, :required => true %>
+    <%= f.input :message, :as => :text, :required => true %>
+    <div class= "hidden">
+      <%= f.input :nickname, :hint => 'Leave this field blank!' %>
+    </div>
+    <div>
+      </br>
+      <%= f.button :submit, 'Send message', :class=> "btn btn-primary" %>
+    </div>
+  <% end %>
+</div>

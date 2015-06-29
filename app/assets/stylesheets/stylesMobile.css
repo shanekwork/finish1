@@ -1,0 +1,352 @@
+@media screen and (min-device-width:320px) and (max-device-width:400px){
+	.js #main-menu-label{
+		display:none;
+		}					
+	.js .slicknav_menu {
+		display:block;
+		}
+		#slicknav_menu{
+			display:block;
+			}
+	.ui-dialog{
+		width:320px!important;
+		}
+		.flash.notice,
+		.flash.success,
+		.flash.error,
+		.flash.alert{
+			font-size:1.3em;
+			padding:7em 3em 4em 3em;
+			}
+	H1{
+		font-size:1.4em;
+		}
+	H2,
+	H6{
+		font-size:1.25em;
+		line-height:1.35em;
+		}
+	H3{
+	    font-size:1.1em;
+		}
+	H4{
+	    font-size:1em;
+		}
+	FORM{
+		padding:1em;
+		}
+		FORM INPUT,
+		FORM TEXTAREA,
+		FORM SELECT{
+		    padding:0.5em 0.85em!important;
+		    width:65.2%;
+			}
+		FORM P INPUT[type="checkbox"]{
+			margin:0.25em 0.5em 0 34.8%;
+			}
+		FORM P LABEL[for="spree_user_remember_me"]{
+			margin:0;
+			width:40%;
+			}
+	#new_review{
+	    padding:1em;
+	    width:90%;
+		}		
+		#new_review .label-field{
+		    margin:0;
+		    text-align:left;
+		    width:100%;
+			}
+		#new_review .stars-field,
+		#new_review .label-field,
+		#new_review .text-field{
+			text-align:left;
+		    width:100%;
+			}
+			#new_review .text-field INPUT, #new_review .text-field TEXTAREA{
+			    width:100%;
+				}	
+	#reviews .review .reviewBody{
+	    width:66.8%;
+		}
+	#content BUTTON{
+		font-size:0.85em;
+		}
+	nav#top-nav-bar UL LI::before,
+	.slicknav_nav li::before,
+	#main-menu NAV UL LI:before,
+	#content .banner UL LI:before,
+	#footer .right-footerContent UL LI:before,
+	#tabs UL LI:before,
+	#product-images #thumbnails UL LI:before,
+	#errorExplanation UL LI:before,
+	#content UL#products LI:before,
+	#breadcrumbs UL LI:before,
+	#content #checkout UL.shipping-methods LI:before,
+	UL#payment-methods LI:before{
+	    content:none;
+	    font-size:1em;
+		}
+	#errorExplanation,
+	#stripeError{
+	    background:#f2dede url("/assets/error-icon.png") no-repeat 1em 1em;
+	    margin:0 0 2em 0!important;
+	    padding:1em 1em 1em 6em;
+	    width:65% !important;
+		}
+		#errorExplanation UL{
+		    margin:0 0 1em 1em;
+		    width:92.4%;
+			}
+			#errorExplanation UL LI{
+			    text-align:left;
+				}
+	html, body {
+	    font: 0.9em/1.4 Arial,Helvetica,sans-serif;
+		}
+		.container{
+			position:inherit;
+		    width:320px;
+			}
+			#header{
+			    margin:3.1em 0 0 0;
+				}
+				nav#top-nav-bar{
+				    padding:0 1em;
+	    			width:91.8%;
+					}
+					nav#top-nav-bar UL LI{
+						width:30.8%;
+						}
+						nav#top-nav-bar UL LI A{
+							color:#19b894!important;
+						    font-size:1px;
+						    padding:12.5em 45em;
+						    text-indent:-5000em;
+							}
+						nav#top-nav-bar ul li.account,
+						nav#top-nav-bar ul li#link-to-login{
+							float:right;
+							margin:0 0 0 0.8em;
+							}
+							nav#top-nav-bar UL LI.favProds A{
+							    background:#19b894 url("/assets/favourite-icon.png") no-repeat center center;
+								}
+								nav#top-nav-bar UL LI.favProds A:hover{
+								    background:#191919 url("/assets/favourite-iconHover.png") no-repeat center center;
+									}
+							nav#top-nav-bar UL LI.account A{
+							    background:#19b894 url("/assets/account-icon.png") no-repeat center center;
+								}
+								nav#top-nav-bar UL LI.account A:hover{
+								    background:#191919 url("/assets/account-iconHover.png") no-repeat center center;
+									}
+							nav#top-nav-bar UL LI.logIn A{
+							    background:#19b894 url("/assets/login-icon.png") no-repeat center center;
+								}
+								nav#top-nav-bar UL LI.logIn A:hover{
+								    background:#191919 url("/assets/login-iconHover.png") no-repeat center center;
+									}							
+							nav#top-nav-bar UL LI.logOut A{
+							    background:#19b894 url("/assets/logout-icon.png") no-repeat center center;
+								}
+								nav#top-nav-bar UL LI.logOut A:hover{
+								    background:#191919 url("/assets/logout-iconHover.png") no-repeat center center;
+									}
+					nav#top-nav-bar UL LI#search-bar{
+					    margin:0.5em 0;
+					    max-width:100%;
+					    width:100%;
+						}
+						nav#top-nav-bar UL LI#search-bar FORM{
+						    text-align:center;
+							}
+							nav#top-nav-bar UL LI#search-bar INPUT,
+							nav#top-nav-bar UL LI#search-bar INPUT[type="submit"]{
+							   	float:left;
+   								width:77%;
+								}
+							nav#top-nav-bar UL LI#search-bar INPUT,
+							FORM#contact_newsletter FIELDSET INPUT{
+							    padding:0.9em 0.85em!important;
+								}
+							nav#top-nav-bar UL LI#search-bar INPUT[type="submit"]{
+							    padding:1.2em 1.15em!important;
+							    width:auto;
+								}
+				#link-to-cart{
+				    margin:0 0 0 1.3em;
+				    position:absolute;
+				    right:0.6em;
+				    top:13.3em;
+				    width:35%;
+					}
+					#link-to-cart A{
+						color:#19b794;
+						min-height:2.8em;
+						padding:1.1em 0 0.6em 5.5em;
+						}
+				#header .phone{
+					margin:0.5em 1em 0 1.8em;
+				    position:absolute;
+				    right:0;
+				    top:0;
+				    width:46%;
+				    z-index:999;
+					}
+					#header .phone IMG{
+						max-width:1.4em;
+						}
+					#header .phone .inside A{
+						font-size:1.2em;
+						}
+				#main-menu FIGURE{
+		    		padding:0.95em 0 0.95em 1em;
+					}
+					#main-menu FIGURE A IMG{
+						max-width:12em;
+						}
+		#content,
+		#content .main-content,
+		#footer .main-footer{
+			float:left;
+		    padding:0 1em;
+		    width:92%;
+			}
+		#content{
+			padding:1em;
+			}
+			#content .banner{
+				height:124px!important;
+				margin:0 0 1em 0;
+				min-height:124px;
+				}
+			#tabs UL LI:last-child,
+			#tabs UL LI:last-child.ui-tabs-active{
+			   	background:none;
+				}
+			#tabs UL LI:hover:last-child{
+			   	background:#191919;
+				}
+				#tabs UL LI H2{
+					font-size:0.8em;
+					}
+					#tabs UL LI H2 A{
+					    padding:0.8em 0.4em;
+						}
+			#content UL#products LI{
+			    margin:0 0 1em 0;
+			    max-height:100%;
+    			min-height:16.3em;
+			    padding:2.2em 0.9em;
+			    width:86%;
+				}
+				#content UL#products LI .product-desc,
+				#content UL#products LI .product-image,
+				{
+					margin:0 0 1em 0;
+					}
+					#content UL#products LI .product-desc A{
+						float:none;
+						text-align:center;
+						}
+			#content .account-summary DL{
+				width:92.2%;
+				}
+				#content .account-summary DL DT{
+				    padding:0;
+				    text-align:left;
+				    width:100%;
+					}
+				#content .account-summary DL DD{
+				    padding:0 0 0 2em;
+				    text-align:left;
+				    width:90%;
+					}
+			#product-show{
+				margin:0;
+				}
+				#content [data-hook="product_left_part"],
+				#content [data-hook="product_right_part"]{
+					margin:0;
+					width:100%;
+					}
+					#product-images #main-image{
+						margin:0;
+						padding:1.2em 0.9em;
+					    width:19.9em;
+						}
+						#product-images #main-image IMG{
+						    max-width:13.3em;
+						    min-width:9.3em;
+							}
+					#content [data-hook="product_right_part"] H1.product-title{
+					    font-size:1.5em;
+					    line-height:1.3em;
+						}
+					#content [data-hook="product_right_part"] [data-hook="description"]{
+						width:100%;
+						}
+					#content [data-hook="product_right_part"] A.favorite_link{
+						padding:0.2em 0 0.2em 2em;
+						}
+					#content [data-hook="product_right_part"] #cart-form #inside-product-cart-form,
+					#content [data-hook="product_right_part"] #cart-form .add-to-cart{
+						margin:0;
+						}
+			#content TABLE.favorite-products THEAD,
+			#content TABLE.favorite-products TBODY{
+				float:left;
+				width:100%;
+				}
+			#content TABLE.favorite-products TBODY{
+				white-space:inherit;
+				}
+				#content TABLE.favorite-products TH,
+				#content TABLE.favorite-products TH.favorite-product-name,
+				#content TABLE.favorite-products TD{
+					float:left;
+					padding:0.49em;
+				    text-align:center;
+				    width:29%;
+					}
+		#footer .left-footerContent{
+		    margin:0 0 1em 0;
+		    width:100%;
+			}
+			#footer H3{
+				font-size:1.5em;
+				margin:0;
+				width:100%;
+				}
+			#footer .left-footerContent #footer-right UL LI{
+			    margin:0 1.6em 0.8em 0;
+			    width:10em;
+				}
+			#footer .right-footerContent,
+			#footer .right-footerContent .left-fc{
+				width:100%;
+				}
+			#footer .right-footerContent .left-fc{
+				margin:0 0 1em 0;
+				}
+			#footer .right-footerContent .right-fc{
+				margin:0;
+				width:100%;
+				}
+				#footer .right-footerContent .right-fc .social{
+				    text-align:center;
+					}
+					#footer .right-footerContent .right-fc .social UL LI{
+						display:inline;
+						float:none;
+						margin:0 0 0 3em;
+						}
+						#footer .right-footerContent .right-fc .social UL LI A{
+							float:none;
+							}
+							#footer .right-footerContent .right-fc .social UL LI A IMG{
+								float:none;
+								}
+
+}

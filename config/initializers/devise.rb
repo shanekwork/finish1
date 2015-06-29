@@ -1,0 +1,4 @@
+# config/initializers/devise.rb
+Devise.setup do |config|
+  config.secret_key = '4079a6340dcad7d94c0b7b3624123f97ccd3207bbdad183e072a1b38b49e2cdd8d9ee40d08236eb811231785d28408c59d040aaaa556988d3fa77f642bc6c2a9'
+end

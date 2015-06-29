@@ -1,0 +1,49 @@
+<%= form_for review, :url => product_reviews_path(product), :html => {:method => :post} do |f| %>
+  <%= render "spree/shared/error_messages", :target => review %>
+
+  <div class="review_rating_field">
+    <div class="label-field">
+      <%= f.label :rating %>
+      <span class="required">*</span>
+    </div>
+
+    <div class="stars-field">
+      <%= render "spree/reviews/stars", :stars => review.rating, :edit_enabled => true %>
+    </div>
+  </div>
+
+  <div class="review_name_field">
+    <div class="label-field">
+      <%= f.label :name %>
+      <span class="required">*</span>
+    </div>
+
+    <div class="text-field">
+      <%= f.text_field :name, :maxlength => "255", :size => "50" %>
+    </div>
+  </div>
+
+  <div class="review_title_field">
+    <div class="label-field">
+      <%= f.label :title %>
+    </div>
+
+    <div class="text-field">
+      <%= f.text_field :title, :maxlength => "255", :size => "50" %>
+    </div>
+  </div>
+
+  <div class="review_review_field">
+    <div class="label-field">
+      <%= f.label :review %> <span class="required">*</span>
+    </div>
+
+    <div class="text-field">
+      <%= f.text_area :review, :wrap => "virtual", :rows => "10", :cols => "50" %>
+    </div>
+  </div>
+
+  <div class="review_submit">
+    <%= f.submit Spree.t(:submit_your_review), :class => "button bg_darkfirst" %>
+  </div>
+<% end %>

@@ -1,0 +1,114 @@
+<meta charset="utf-8">
+<title>Stationery Store</title>
+<meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1" name="viewport">
+<%== meta_data_tags %>
+<%= canonical_tag(Spree::Config.site_url) %>
+<%= favicon_link_tag image_path('favicon.ico') %>
+<%= stylesheet_link_tag 'spree/frontend/all', :media => 'screen' %>
+<%= stylesheet_link_tag 'jquery-styles', :media => 'screen' %><%= csrf_meta_tags %>
+<%= stylesheet_link_tag 'slicknav', :media => 'screen' %>
+<%= stylesheet_link_tag 'styles', :media => 'screen' %>
+<%= stylesheet_link_tag 'stylesMobile', :media => 'screen' %>
+<%= stylesheet_link_tag 'http://fonts.googleapis.com/css?family=Roboto', :media => 'screen' %>
+<%= stylesheet_link_tag '//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css', :media => 'screen' %>
+<%= javascript_include_tag 'spree/frontend/all' %>
+<%= javascript_include_tag '//code.jquery.com/ui/1.11.3/jquery-ui.js' %>
+<%= javascript_include_tag 'slicknav.js' %>
+<!--[if lt IE 9]>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6/html5shiv.min.js"></script>
+<![endif]-->
+
+<script>
+	$(document).ready(function(){
+		/* Add class just to home page */
+		var pathname = window.location.pathname;
+		if(pathname == "/"){
+				$("body").addClass("home");
+			}
+
+		/* Add tabs to index */
+		$( "#tabs" ).tabs();
+
+		/* Get Newsletter in index */
+	    $("#contact_newsletter").submit(function()
+	    {
+	        var emailNewsletter = $("#email-newsletter").val(); // get email field value
+
+	        $.ajax(
+	        {
+	            type: "POST",
+	            url: "https://mandrillapp.com/api/1.0/messages/send.json",
+	            data: {
+	                'key': 'eD8EQ_uqhJz5qbillvVwcg',
+	                'message': {
+	                    'from_email': emailNewsletter,
+	                    'headers': {
+	                        'Reply-To': emailNewsletter
+	                    },
+	                    'subject': 'mysterious-ravine get Newsletter',
+	                    'text': 'You have received a request from mysterious-ravine site.\n\n' + emailNewsletter + ' wants request a newsletter',
+	                    'to': new Array (
+	                    {
+	                        'email': 'alan@supportsolutions.ie',
+	                        'name': 'mysterious-ravine',
+	                        'type': 'to'
+	                    })
+	                }
+	            }
+	        })
+	        .done(function(response) {
+	            alert('Your message has been sent. Thank you!'); // show success message
+	            $("#email-newsletter").val(''); // reset field after successful submission
+	        })
+	        .fail(function(response) {
+	            alert('Error sending message.');
+	        });
+	        return false; // prevent page refresh
+	    });
+
+		/* Add class to nav-bar links */
+		$("#nav-bar li a").each(function(){
+			if($(this).attr('href') == "/favorite_products"){
+				$(this).parent().addClass("favProds");
+			}
+			if(($(this).attr('href') == "/user/spree_user/sign_up") || ($(this).attr('href') == "/account")){
+				$(this).parent().addClass("account");
+			}
+			if($(this).attr('href') == "/login"){
+				$(this).parent().addClass("logIn");
+			}
+			if($(this).attr('href') == "/logout"){
+				$(this).parent().addClass("logOut");
+			}
+		});
+
+		/* Show priceCurrency SPAN and add class to old price SPAN */
+		if ($("#product-price DIV SPAN.priceCurrency").text().length > 0){
+			$("#product-price DIV SPAN.priceCurrency").attr("style", "display:inline!important");
+			$("#product-price DIV SPAN.price.selling").addClass("priceNormal");
+		}
+
+		/* Pop-up error messages */   
+		$( ".flash" ).dialog();
+
+		/* Add class to child nav links */
+		$("#main-nav-bar li:has(> ul)").addClass("main-nav-bar-child");
+
+		// Add down arrow only to menu items with submenus
+	    $("#main-nav-bar > li:has('ul')").each(function() {
+	        $(this).find("a:first").css("background", "transparent url('/assets/down-menu-arrow.png') no-repeat right 0.35em");
+	    });
+
+	    /* Hide main menu for mobile devices */
+		$("nav#main-menu-label").slicknav();
+
+		if ($("#slicknav_menu").css("display") == "block"){
+		    $("html").addClass("js");
+		}
+	});
+</script>
+
+<%= render "spree/shared/routes" %>
+<%= render "spree/shared/frontend_routes" %>
+<%= yield :head %>

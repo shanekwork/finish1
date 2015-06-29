@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<users version="1.0">
+  <array>
+    <user>
+      <key>email</key>
+      <string>shane@supportsolutions.ie</string>
+      <key>sign_in_count</key>
+      <string>8</string>
+      <key>created_at</key>
+      <string>2014-07-23 14:52:38 UTC</string>
+    </user>
+  </array>
+</users>

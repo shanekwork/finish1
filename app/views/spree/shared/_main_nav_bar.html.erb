@@ -1,0 +1,738 @@
+<nav id="main-menu-label" class="columns sixteen">
+
+
+
+  <ul id="main-nav-bar" class="inline" data-hook>
+
+    
+    <li id="home-link" data-hook><%= link_to Spree.t(:home), root_path, class: "small_a" %></li>
+
+    <!--<li><a href="/additional_pages/consumables">ink &amp; toner</a></li>-->
+
+
+
+
+    <li><a class="small_a" href="#">Office Supplies</a>
+      <ul>
+      <% Spree::Taxonomy.where(id: [17, 16, 12, 18, 13, 21, 20, 15, 19, 30, 31, 32]).each do |t| %>
+        <li>
+          <%= link_to t.name, '#' %>
+            <ul>
+                <% t.taxons.each do |taxon| %>
+                  <li>
+                    <%= link_to taxon.name, nested_taxons_path(taxon.permalink) %>                  
+                  </li>
+                <% end %>
+            </ul>
+        </li>        
+      <% end %>
+      </ul>
+    </li>
+
+
+
+
+    <li><a class="small_a" href="#">Ink &amp; Toner</a>
+      <ul>
+      <% Spree::Taxonomy.where(id: [43]).each do |t| %>
+        <li>
+          <%= link_to t.name, '#' %>
+            <ul>
+                <% t.taxons.each do |taxon| %>
+                  <li>
+                    <%= link_to taxon.name, nested_taxons_path(taxon.permalink) %>                  
+                  </li>
+                <% end %>
+            </ul>
+        </li>        
+      <% end %>
+      </ul>
+    </li>
+    
+
+
+
+
+    <li><a class="small_a" href="#">Paper</a>
+      <ul>
+      <% Spree::Taxonomy.where(id: [10]).each do |t| %>
+        <li>
+          <%= link_to t.name, '#' %>
+            <ul>
+                <% t.taxons.each do |taxon| %>
+                  <li>
+                    <%= link_to taxon.name, nested_taxons_path(taxon.permalink) %>                  
+                  </li>
+                <% end %>
+            </ul>
+        </li>        
+      <% end %>
+      </ul>
+    </li>
+
+
+    <li><a class="small_a" href="#">Post &amp; Packaging</a>
+      <ul>
+      <% Spree::Taxonomy.where(id: [11, 63]).each do |t| %>
+        <li>
+          <%= link_to t.name, '#' %>
+            <ul>
+                <% t.taxons.each do |taxon| %>
+                  <li>
+                    <%= link_to taxon.name, nested_taxons_path(taxon.permalink) %>                  
+                  </li>
+                <% end %>
+            </ul>
+        </li>        
+      <% end %>
+      </ul>
+    </li>
+
+
+
+
+    <li><a class="small_a" href="#">Machines</a>
+      <ul>
+      <% Spree::Taxonomy.where(id: [42, 40, 41, 44, 50, 51, 83]).each do |t| %>
+        <li>
+          <%= link_to t.name, '#' %>
+            <ul>
+                <% t.taxons.each do |taxon| %>
+                  <li>
+                    <%= link_to taxon.name, nested_taxons_path(taxon.permalink) %>                  
+                  </li>
+                <% end %>
+            </ul>
+        </li>        
+      <% end %>
+      </ul>
+    </li>
+
+
+
+
+    <li><a class="small_a" href="#">Facilities</a>
+      <ul>
+      <% Spree::Taxonomy.where(id: [70, 61, 71, 62]).each do |t| %>
+        <li>
+          <%= link_to t.name, '#' %>
+            <ul>
+                <% t.taxons.each do |taxon| %>
+                  <li>
+                    <%= link_to taxon.name, nested_taxons_path(taxon.permalink) %>                  
+                  </li>
+                <% end %>
+            </ul>
+        </li>        
+      <% end %>
+      </ul>
+    </li>
+
+
+
+
+    <li><a class="small_a" href="#">Furniture</a>
+      <ul>
+      <% Spree::Taxonomy.where(id: [60]).each do |t| %>
+        <li>
+          <%= link_to t.name, '#' %>
+            <ul>
+                <% t.taxons.each do |taxon| %>
+                  <li>
+                    <%= link_to taxon.name, nested_taxons_path(taxon.permalink) %>                  
+                  </li>
+                <% end %>
+            </ul>
+        </li>        
+      <% end %>
+      </ul>
+    </li>
+
+
+
+<!--
+    <li><a class="small_a" href="#">Ink &amp; Toner</a>
+      <ul>
+        <li><a href="#">Printer/Fax/Copier Supplies</a> TAXONOMY ID 43
+          <ul>
+            <li><a href="/t/printer-slash-fax-slash-copier-supplies/correctable-ribbons">Correctable Ribbons</a></li>
+            <li><a href="/t/printer-slash-fax-slash-copier-supplies/list-off-tapes">List Off Tapes</a></li>
+            <li><a href="/t/printer-slash-fax-slash-copier-supplies/fabric-ribbons">Fabric Ribbons</a></li>
+            <li><a href="/t/printer-slash-fax-slash-copier-supplies/thermal-ribbons">Thermal Ribbons</a></li>
+            <li><a href="/t/printer-slash-fax-slash-copier-supplies/print-wheels">Print Wheels</a></li>
+            <li><a href="/t/printer-slash-fax-slash-copier-supplies/inkjet-cartridges">Inkjet Cartridges</a></li>
+            <li><a href="/t/printer-slash-fax-slash-copier-supplies/laser-toners">Laser Toners</a></li>
+            <li><a href="/t/printer-slash-fax-slash-copier-supplies/plotter-pens">Plotter Pens</a></li>
+            <li><a href="/t/printer-slash-fax-slash-copier-supplies/drums">Drums</a></li>
+            <li><a href="/t/printer-slash-fax-slash-copier-supplies/developers">Developers</a></li>
+            <li><a href="/t/printer-slash-fax-slash-copier-supplies/printer-maintenance-kits">Printer Maintenance Kits</a></li>
+            <li><a href="/t/printer-slash-fax-slash-copier-supplies/transfer-belts-and-kits">Transfer Belts &amp; Kits</a></li>
+            <li><a href="/t/printer-slash-fax-slash-copier-supplies/fusers-and-accessories">Fusers &amp; Accessories</a></li>
+            <li><a href="/t/printer-slash-fax-slash-copier-supplies/ozone-filters">Ozone Filters</a></li>
+            <li><a href="/t/printer-slash-fax-slash-copier-supplies/imaging-units">Imaging Units</a></li>
+            <li><a href="/t/printer-slash-fax-slash-copier-supplies/opc-belts">OPC Belts</a></li>
+            <li><a href="/t/printer-slash-fax-slash-copier-supplies/waste-toners-and-collectors">Waste Toners &amp; Collectors</a></li>
+            <li><a href="/t/printer-slash-fax-slash-copier-supplies/photoconductors">Photoconductors</a></li>
+            <li><a href="/t/printer-slash-fax-slash-copier-supplies/ink-sticks">Ink Sticks</a></li>
+            <li><a href="/t/printer-slash-fax-slash-copier-supplies/process-units">Process Units</a></li>
+            <li><a href="/t/printer-slash-fax-slash-copier-supplies/printer-slash-fax-slash-copier-slash-wp-supplies-other">Printer/Fax/Copier/WP Supplies Other</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+
+
+
+
+
+    <li><a class="small_a" href="#">Paper</a> TAXONOMY ID 10
+      <ul>
+        <li><a href="#">Copier/Inkjet/Laser - Paper A4</a>
+          <ul>
+            <li><a href="/t/paper/copier-slash-inkjet-slash-laser-paper-a4/white-80gsm">White 80gsm</a></li>
+            <li><a href="/t/paper/copier-slash-inkjet-slash-laser-paper-a4/white-90gsm">White 90gsm</a></li>
+            <li><a href="/t/paper/copier-slash-inkjet-slash-laser-paper-a4/white-100gsm">White 100gsm</a></li>
+            <li><a href="/t/paper/copier-slash-inkjet-slash-laser-paper-a4/white-120gsm-to-160gsm">White 120gsm-160gsm</a></li>
+            <li><a href="/t/paper/copier-slash-inkjet-slash-laser-paper-a4/colour-80gsm">Colour 80gsm</a></li>
+            <li><a href="/t/paper/copier-slash-inkjet-slash-laser-paper-a4/colour-90gsm">Colour 90gsm</a></li>
+            <li><a href="/t/paper/copier-slash-inkjet-slash-laser-paper-a4/colour-100gsm">Colour 100gsm</a></li>
+            <li><a href="/t/paper/copier-slash-inkjet-slash-laser-paper-a4/colour-120gsm-to-160gsm">Colour 120gsm-160gsm</a></li>
+            <li><a href="/t/paper/copier-slash-inkjet-slash-laser-paper-a4/less-than-80gsm-white-slash-colour">Less than 80gsm White/Colour</a></li>
+            <li><a href="/t/paper/copier-slash-inkjet-slash-laser-paper-a4/unspecified">Unspecified</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Copier/Inkjet/Laser - Paper A3</a>
+          <ul>
+            <li><a href="/t/paper/copier-slash-inkjet-slash-laser-paper-a3/white-80gsm">White 80gsm</a></li>
+            <li><a href="/t/paper/copier-slash-inkjet-slash-laser-paper-a3/white-90gsm">White 90gsm</a></li>
+            <li><a href="/t/paper/copier-slash-inkjet-slash-laser-paper-a3/white-100gsm">White 100gsm</a></li>
+            <li><a href="/t/paper/copier-slash-inkjet-slash-laser-paper-a3/white-120gsm-to-160gsm">White 120gsm-160gsm</a></li>
+            <li><a href="/t/paper/copier-slash-inkjet-slash-laser-paper-a3/colour-80gsm">Colour 80gsm</a></li>
+            <li><a href="/t/paper/copier-slash-inkjet-slash-laser-paper-a3/colour-90gsm">Colour 90gsm</a></li>
+            <li><a href="/t/paper/copier-slash-inkjet-slash-laser-paper-a3/colour-100gsm">Colour 100gsm</a></li>
+            <li><a href="/t/paper/copier-slash-inkjet-slash-laser-paper-a3/colour-120gsm-to-160gsm">Colour 120gsm-160gsm</a></li>
+            <li><a href="/t/paper/copier-slash-inkjet-slash-laser-paper-a3/less-than-80gsm-white-slash-colour">Less than 80gsm White/Colour</a></li>
+            <li><a href="/t/paper/copier-slash-inkjet-slash-laser-paper-a3/unspecified">Unspecified</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Copier/Inkjet/Laser - Paper Other Sizes</a>
+          <ul>
+            <li><a href="/t/paper/copier-slash-inkjet-slash-laser-paper-other-sizes/white-80gsm">White 80gsm</a></li>
+            <li><a href="/t/paper/copier-slash-inkjet-slash-laser-paper-other-sizes/white-90gsm">White 90gsm</a></li>
+            <li><a href="/t/paper/copier-slash-inkjet-slash-laser-paper-other-sizes/white-100gsm">White 100gsm</a></li>
+            <li><a href="/t/paper/copier-slash-inkjet-slash-laser-paper-other-sizes/white-120gsm-to-160gsm">White 120gsm-160gsm</a></li>
+            <li><a href="/t/paper/copier-slash-inkjet-slash-laser-paper-other-sizes/colour-80gsm">Colour 80gsm</a></li>
+            <li><a href="/t/paper/copier-slash-inkjet-slash-laser-paper-other-sizes/colour-90gsm">Colour 90gsm</a></li>
+            <li><a href="/t/paper/copier-slash-inkjet-slash-laser-paper-other-sizes/colour-100gsm">Colour 100gsm</a></li>
+            <li><a href="/t/paper/copier-slash-inkjet-slash-laser-paper-other-sizes/colour-120gsm-to-160gsm">Colour 120gsm-160gsm</a></li>
+            <li><a href="/t/paper/copier-slash-inkjet-slash-laser-paper-other-sizes/less-than-80gsm-white-slash-colour">Less than 80gsm White/Colour</a></li>
+            <li><a href="/t/paper/copier-slash-inkjet-slash-laser-paper-other-sizes/unspecified">Unspecified</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Specialist Inkjet</a>
+          <ul>
+            <li><a href="/t/paper/specialist-inkjet/a4">A4</a></li>
+            <li><a href="/t/paper/specialist-inkjet/other-sizes">Other Size</a></li>
+            <li><a href="/t/paper/specialist-inkjet/unspecified">Unspecified</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Office Card(160g+)</a>
+          <ul>
+            <li><a href="/t/paper/office-card-160g-plus/white">White</a></li>
+            <li><a href="/t/paper/office-card-160g-plus/single-colour">Single Colour</a></li>
+            <li><a href="/t/paper/office-card-160g-plus/assorted-colours">Assorted Colours</a></li>
+            <li><a href="/t/paper/office-card-160g-plus/unspecified">Unspecified</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Photo Paper</a>
+          <ul>
+            <li><a href="/t/paper/photo-paper/a4">A4</a></li>
+            <li><a href="/t/paper/photo-paper/photo-size">Photo Size</a></li>
+            <li><a href="/t/paper/photo-paper/other-sizes">Other Sizes</a></li>
+            <li><a href="/t/paper/photo-paper/unspecified">Unspecified</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Listing Paper</a>
+          <ul>
+            <li><a href="/t/paper/listing-paper/plain">Plain</a></li>
+            <li><a href="/t/paper/listing-paper/ruled">Ruled</a></li>
+            <li><a href="/t/paper/listing-paper/unspecified">Unspecified</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Blotting Paper</a>
+          <ul>
+            <li><a href="/t/paper/blotting-paper/unspecified">Unspecified</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Pre-Printed Stationery</a>
+          <ul>
+            <li><a href="/t/paper/pre-printed-stationery/remittance">Remittance</a></li>
+            <li><a href="/t/paper/pre-printed-stationery/invoice">Invoice</a></li>
+            <li><a href="/t/paper/pre-printed-stationery/other-monies">Other Monies</a></li>
+            <li><a href="/t/paper/pre-printed-stationery/miscellaneous">Miscellaneous</a></li>
+            <li><a href="/t/paper/pre-printed-stationery/unspecified">Unspecified</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Social Stationery</a>
+          <ul>
+            <li><a href="/t/paper/social-stationery/cards">Cards</a></li>
+            <li><a href="/t/paper/social-stationery/pads">Pads</a></li>
+            <li><a href="/t/paper/social-stationery/envelopes">Envelopes</a></li>
+            <li><a href="/t/paper/social-stationery/paper">Paper</a></li>
+            <li><a href="/t/paper/social-stationery/assorted">Assorted</a></li>
+            <li><a href="/t/paper/social-stationery/unspecified">Unspecified</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Wide Format Inkjet Paper</a>
+          <ul>
+            <li><a href="/t/paper/wide-format-inkjet-paper/rolls">Rolls</a></li>
+            <li><a href="/t/paper/wide-format-inkjet-paper/unspecified">Unspecified</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Paper Other</a>
+          <ul>
+            <li><a href="/t/paper/paper-other/a4">A4</a></li>
+            <li><a href="/t/paper/paper-other/a3">A3</a></li>
+            <li><a href="/t/paper/paper-other/a2">A2</a></li>
+            <li><a href="/t/paper/paper-other/a1">A1</a></li>
+            <li><a href="/t/paper/paper-other/rolls">Rolls</a></li>
+            <li><a href="/t/paper/paper-other/b1">B1</a></li>
+            <li><a href="/t/paper/paper-other/assorted">Assorted</a></li>
+            <li><a href="/t/paper/paper-other/unspecified">Unspecified</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Unspecified</a>
+          <ul>
+            <li><a href="/t/paper/unspecified/unspecified">Unspecified</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Bespoke Printing</a>
+          <ul>
+            <li><a href="/t/bespoke-printing/bespoke-labels">Bespoke Lables</a></li>
+            <li><a href="/t/bespoke-printing/office-forms">Office Forms</a></li>
+            <li><a href="/t/bespoke-printing/manuals">Manuals</a></li>
+            <li><a href="/t/bespoke-printing/greeting-cards">Greeting Cards</a></li>
+            <li><a href="/t/bespoke-printing/colour-brochures">Colour Brochures</a></li>
+            <li><a href="/t/bespoke-printing/folders">Folders</a></li>
+            <li><a href="/t/bespoke-printing/bespoke-printing-other">Bespoke Printing Other</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+
+
+
+
+
+
+    <li><a class="small_a" href="#">Post &amp; Packaging</a>
+      <ul>
+        <li><a href="#">Envelopes</a> TAXONOMY ID 11
+          <ul>
+            <li><a href="/t/envelopes/envelopes-c4">C4</a></li>
+            <li><a href="/t/envelopes/envelopes-dl">DL</a></li>
+            <li><a href="/t/envelopes/envelopes-c5">C5</a></li>
+            <li><a href="/t/envelopes/envelopes-15x10-inches">15x10(inches)</a></li>
+            <li><a href="/t/envelopes/envelopes-16x12-inches">16x12(inches)</a></li>
+            <li><a href="/t/envelopes/machine-envelopes">Machine Envelopes</a></li>
+            <li><a href="/t/envelopes/protective-envelopes-not-padded">Protective Envelopes(Not Padded)</a></li>
+            <li><a href="/t/envelopes/padded-bags-and-padded-envelopes">Padded Bags &amp; Envelopes</a></li>
+            <li><a href="/t/envelopes/pre-printed-envelopes">Pre-printed Envelopes</a></li>
+            <li><a href="/t/envelopes/envelopes-c6">C6</a></li>
+            <li><a href="/t/envelopes/media-mailers">Media Mailers</a></li>
+            <li><a href="/t/envelopes/envelopes-other">Envelopes Other</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Mailroom &amp; Warehouse</a> TAXONOMY ID 63
+          <ul>
+            <li><a href="/t/mailroom-and-warehouse/mailroom-and-warehouse-furniture">Mailroom &amp; Warehouse Furniture</a></li>
+            <li><a href="/t/mailroom-and-warehouse/packing-materials">Packing Materials</a></li>
+            <li><a href="/t/mailroom-and-warehouse/packing-equipment">Packing Equipment</a></li>
+            <li><a href="/t/mailroom-and-warehouse/postal-tubes">Postal Tubes</a></li>
+            <li><a href="/t/mailroom-and-warehouse/packing-labels">Packing Labels</a></li>
+            <li><a href="/t/mailroom-and-warehouse/rubber-bands">Rubber Bands</a></li>
+            <li><a href="/t/mailroom-and-warehouse/postal-scales">Postal Scales</a></li>
+            <li><a href="/t/mailroom-and-warehouse/racking">Racking</a></li>
+            <li><a href="/t/mailroom-and-warehouse/storage-boxes">Storage Boxes</a></li>
+            <li><a href="/t/mailroom-and-warehouse/mail-trolley-slash-trucks">Mail Trolley/Trucks</a></li>
+            <li><a href="/t/mailroom-and-warehouse/tools-diy">Tools DIY</a></li>
+            <li><a href="/t/mailroom-and-warehouse/vehicle-equipment">Vehicle Equipment</a></li>
+            <li><a href="/t/mailroom-and-warehouse/mailroom-and-warehouse-other">Mailroom &amp; Warehouse Other</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+
+
+
+
+
+
+
+    <li><a class="small_a" href="#">Machines</a>
+      <ul>
+        <li><a href="#">Computer Accessories</a> TAXONOMY ID 42
+          <ul>
+            <li><a href="/t/computer-accessories/computer-bags">Computer Bags</a></li>
+            <li><a href="/t/computer-accessories/equipment-security">Equipment Security</a></li>
+            <li><a href="/t/computer-accessories/screen-filters">Screen Filters</a></li>
+            <li><a href="/t/computer-accessories/monitor-stands">Monitor Stands</a></li>
+            <li><a href="/t/computer-accessories/wrist-rests-slash-mousemats">Wrist Rests/Mousemats</a></li>
+            <li><a href="/t/computer-accessories/copyholders">Copyholders</a></li>
+            <li><a href="/t/computer-accessories/dust-covers">Dust Covers</a></li>
+            <li><a href="/t/computer-accessories/storage-for-media">Storage for Media</a></li>
+            <li><a href="/t/computer-accessories/computer-cleaning-general">Computer Cleaning General</a></li>
+            <li><a href="/t/computer-accessories/cable-management">Cable Management</a></li>
+            <li><a href="/t/computer-accessories/computer-accessories-other">Computer Accessories Other</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Computer Hardware</a> TAXONOMY ID 40
+          <ul>
+            <li><a href="/t/computer-hardware/pc-slash-workstation">Portable PCs</a></li>
+            <li><a href="/t/computer-hardware/laser-printers">Laser Printers</a></li>
+            <li><a href="/t/computer-hardware/ink-jet-printers">Ink Jet Printers</a></li>
+            <li><a href="/t/computer-hardware/multifunctional-devices">Multifunctional Devices</a></li>
+            <li><a href="/t/computer-hardware/other-printers">Other Printers</a></li>
+            <li><a href="/t/computer-hardware/scanners">Scanners</a></li>
+            <li><a href="/t/computer-hardware/input-devices">Input Devices</a></li>
+            <li><a href="/t/computer-hardware/switches-slash-connectors-slash-adapters">Switches/Connectors/Adapters</a></li>
+            <li><a href="/t/computer-hardware/internal-expansion-cards">Internal Expansion Cards</a></li>
+            <li><a href="/t/computer-hardware/multimedia-equipment">Multimedia Equipment</a></li>
+            <li><a href="/t/computer-hardware/warranties-slash-service">Warranties/Service</a></li>
+            <li><a href="/t/computer-hardware/modems-slash-routers">Modems/Routers</a></li>
+            <li><a href="/t/computer-hardware/cables">Cables</a></li>
+            <li><a href="/t/computer-hardware/drives-hardware">Drives-Hardware</a></li>
+            <li><a href="/t/computer-hardware/ups-slash-power-filters">UPS/Power Filters</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Computer Media Supplies</a> TAXONOMY ID 41
+          <ul>
+            <li><a href="/t/computer-media-supplies/disks">Disks</a></li>
+            <li><a href="/t/computer-media-supplies/data-tapes-and-cartridges">Data Tapes &amp; Cartridges</a></li>
+            <li><a href="/t/computer-media-supplies/optical-disks">Optical Disks</a></li>
+            <li><a href="/t/computer-media-supplies/usb-sticks">USB Sticks</a></li>
+            <li><a href="/t/computer-media-supplies/transportable-memory-devices">Transportable Memory Devices</a></li>
+            <li><a href="/t/computer-media-supplies/computer-media-supplies-other">Computer Media Supplies Other</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Computer Software</a> TAXONOMY ID 44
+          <ul>
+            <li><a href="/t/computer-software/business-software">Business Software</a></li>
+            <li><a href="/t/computer-software/internet-and-intranet-software">Internet &amp; Intranet Software</a></li>
+            <li><a href="/t/computer-software/labeling-software">Labeling Software</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Office Machines</a> TAXONOMY ID 50
+          <ul>
+            <li><a href="/t/office-machines/calculators-slash-adding-machines">Calculators/Adding Machines</a></li>
+            <li><a href="/t/office-machines/calculators-accessories">Calculators Accessories</a></li>
+            <li><a href="/t/office-machines/dictation-machines">Dictation Machines</a></li>
+            <li><a href="/t/office-machines/dictation-accessories">Dictation Accessories</a></li>
+            <li><a href="/t/office-machines/copiers">Copiers</a></li>
+            <li><a href="/t/office-machines/fax-machines">Fax Machines</a></li>
+            <li><a href="/t/office-machines/labelmakers">Labelmakers</a></li>
+            <li><a href="/t/office-machines/shredders">Shredders</a></li>
+            <li><a href="/t/office-machines/typewriters-wps">Typewriters WPs</a></li>
+            <li><a href="/t/office-machines/comb-binders">Comb Binders</a></li>
+            <li><a href="/t/office-machines/laminators">Laminators</a></li>
+            <li><a href="/t/office-machines/wire-binders">Wire Binders</a></li>
+            <li><a href="/t/office-machines/thermal-binders">Thermal Binders</a></li>
+            <li><a href="/t/office-machines/telephones">Telephones</a></li>
+            <li><a href="/t/office-machines/cash-register-slash-tills">Cash Register/Tills</a></li>
+            <li><a href="/t/office-machines/telephone-accessories">Telephone Accessories</a></li>
+            <li><a href="/t/office-machines/answer-machines">Answer Machines</a></li>
+            <li><a href="/t/office-machines/intercom-equipment">Intercom Equipment</a></li>
+            <li><a href="/t/office-machines/coil-binders">Coil Binders</a></li>
+            <li><a href="/t/office-machines/letter-folders">Letter Folders</a></li>
+            <li><a href="/t/office-machines/office-machine-services">Office Machine Services</a></li>
+            <li><a href="/t/office-machines/office-machines-other">Office Machines Other</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Office Machine Supplies</a> TAXONOMY ID 51
+          <ul>
+            <li><a href="/t/office-machine-supplies/dictation-tapes">Dictation Tapes</a></li>
+            <li><a href="/t/office-machine-supplies/fax-rolls">Fax Rolls</a></li>
+            <li><a href="/t/office-machine-supplies/labelmaker-tapes">Labelmaker Tapes</a></li>
+            <li><a href="/t/office-machine-supplies/shredder-supplies">Shredder Supplies</a></li>
+            <li><a href="/t/office-machine-supplies/telex-rolls">Telex Rolls</a></li>
+            <li><a href="/t/office-machine-supplies/tally-rolls">Tally Rolls</a></li>
+            <li><a href="/t/office-machine-supplies/binding-combs">Binding Combs</a></li>
+            <li><a href="/t/office-machine-supplies/laminating-pockets">Laminating Pockets</a></li>
+            <li><a href="/t/office-machine-supplies/binding-wires">Binding Wires</a></li>
+            <li><a href="/t/office-machine-supplies/velobind-strips">Velobind Strips</a></li>
+            <li><a href="/t/office-machine-supplies/cover-boards">Cover Boards</a></li>
+            <li><a href="/t/office-machine-supplies/thermal-bind-covers">Thermal Bind Covers</a></li>
+            <li><a href="/t/office-machine-supplies/batteries">Batteries</a></li>
+            <li><a href="/t/office-machine-supplies/electrical-accessories">Electrical Accessories</a></li>
+            <li><a href="/t/office-machine-supplies/binding-coils">Binding Coils</a></li>
+            <li><a href="/t/office-machine-supplies/office-machine-supplies-other">Office Machine Supplies Other</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Personal Electronic Equipment</a> TAXONOMY ID 83
+          <ul>
+            <li><a href="/t/personal-electronic-equipment/mobile-phone-accessories">Mobile Phone Accessories</a></li>
+            <li><a href="/t/personal-electronic-equipment/media-player-accessories">Media Player Accessories</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+
+
+
+
+
+
+
+    <li><a class="small_a" href="#">Facilities</a>
+      <ul>
+        <li><a href="#">Catering</a> TAXONOMY ID 70
+          <ul>
+            <li><a href="/t/catering/">Beverages</a></li>
+            <li><a href="/t/catering/">Kitchen Appliances</a></li>
+            <li><a href="/t/catering/">Food</a></li>
+            <li><a href="/t/catering/">Drinks Dispensers</a></li>
+            <li><a href="/t/catering/">Catering Sundries</a></li>
+            <li><a href="/t/catering/">Catering Utensils</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Office Environment</a> TAXONOMY ID 61
+          <ul>
+            <li><a href="/t/office-environment/">Waste Bins</a></li>
+            <li><a href="/t/office-environment/">Ashtrays</a></li>
+            <li><a href="/t/office-environment/">Footrests &amp; Stools</a></li>
+            <li><a href="/t/office-environment/">Clocks</a></li>
+            <li><a href="/t/office-environment/">Coat Stands</a></li>
+            <li><a href="/t/office-environment/">Literature Holders</a></li>
+            <li><a href="/t/office-environment/">Picture Frames</a></li>
+            <li><a href="/t/office-environment/">Pictures</a></li>
+            <li><a href="/t/office-environment/">General Signs</a></li>
+            <li><a href="/t/office-environment/">Plants</a></li>
+            <li><a href="/t/office-environment/">Lamps</a></li>
+            <li><a href="/t/office-environment/">Uplighters</a></li>
+            <li><a href="/t/office-environment/">Air Conditioners</a></li>
+            <li><a href="/t/office-environment/">Fans</a></li>
+            <li><a href="/t/office-environment/">Heaters</a></li>
+            <li><a href="/t/office-environment/">Mats</a></li>
+            <li><a href="/t/office-environment/">Bulbs</a></li>
+            <li><a href="/t/office-environment/">Recycling Containers</a></li>
+            <li><a href="/t/office-environment/">Office Environment Services</a></li>
+            <li><a href="/t/office-environment/">Office Environment Other</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Janitorial</a> TAXONOMY ID 71
+          <ul>
+            <li><a href="/t/janitorial/">Cleaning Products</a></li>
+            <li><a href="/t/janitorial/">Cleaning Equipment</a></li>
+            <li><a href="/t/janitorial/">Rubbish Bins</a></li>
+            <li><a href="/t/janitorial/">Sanitary Refills</a></li>
+            <li><a href="/t/janitorial/">Sanitary Dispensers</a></li>
+            <li><a href="/t/janitorial/">Hand Dryers</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Safety &amp; Security</a> TAXONOMY ID 62
+          <ul>
+            <li><a href="/t/safety-and-security/">First Aid</a></li>
+            <li><a href="/t/safety-and-security/">Torches</a></li>
+            <li><a href="/t/safety-and-security/">ID Badges</a></li>
+            <li><a href="/t/safety-and-security/">Cash/Document Boxes</a></li>
+            <li><a href="/t/safety-and-security/">CCTV/Alarms/Detectors</a></li>
+            <li><a href="/t/safety-and-security/">Key Security Systems</a></li>
+            <li><a href="/t/safety-and-security/">Safety Signs</a></li>
+            <li><a href="/t/safety-and-security/">Protective Clothing</a></li>
+            <li><a href="/t/safety-and-security/">Fire Extinguishers</a></li>
+            <li><a href="/t/safety-and-security/">Safes &amp; Locks</a></li>
+            <li><a href="/t/safety-and-security/">Safety &amp; Security Services</a></li>
+            <li><a href="/t/safety-and-security/">Safety &amp; Security Other</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+
+
+
+
+
+
+    <li><a class="small_a" href="#">Furniture</a> TAXONOMY ID 60
+      <ul>
+        <li><a href="#">Desks</a>
+          <ul>
+            <li><a href="/t/furniture/desks/radial">Radial</a></li>
+            <li><a href="/t/furniture/desks/wave">Wave</a></li>
+            <li><a href="/t/furniture/desks/rectangular">Rectangular</a></li>
+            <li><a href="/t/furniture/desks/extension">Extension</a></li>
+            <li><a href="/t/furniture/desks/reception">Reception</a></li>
+            <li><a href="/t/furniture/desks/accessories">Accessories</a></li>
+            <li><a href="/t/furniture/desks/legs">Legs</a></li>
+            <li><a href="/t/furniture/desks/unspecified">Unspecified</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Computer Workstations</a>
+          <ul>
+            <li><a href="/t/furniture/computer-workstations/left-handed">Left Handed</a></li>
+            <li><a href="/t/furniture/computer-workstations/right-handed">Right Handed</a></li>
+            <li><a href="/t/furniture/computer-workstations/pedestal">Pedestal</a></li>
+            <li><a href="/t/furniture/computer-workstations/mobile">Mobile</a></li>
+            <li><a href="/t/furniture/computer-workstations/vdu">VDU</a></li>
+            <li><a href="/t/furniture/computer-workstations/accessories">Accessories</a></li>
+            <li><a href="/t/furniture/computer-workstations/other">Other</a></li>
+            <li><a href="/t/furniture/computer-workstations/unspecified">Unspecified</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Conference Furniture</a>
+          <ul>
+            <li><a href="/t/furniture/conference-furniture/table">Table</a></li>
+            <li><a href="/t/furniture/conference-furniture/lectern">Lectern</a></li>
+            <li><a href="/t/furniture/conference-furniture/other">Other</a></li>
+            <li><a href="/t/furniture/conference-furniture/unspecified">Unspecified</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Screens</a>
+          <ul>
+            <li><a href="/t/furniture/screens/desk">Desk</a></li>
+            <li><a href="/t/furniture/screens/floor-standing">Floor Standing</a></li>
+            <li><a href="/t/furniture/screens/accessories">Accessories</a></li>
+            <li><a href="/t/furniture/screens/other">Other</a></li>
+            <li><a href="/t/furniture/screens/unspecified">Unspecified</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Tables</a>
+          <ul>
+            <li><a href="/t/furniture/tables/shaped">Shaped</a></li>
+            <li><a href="/t/furniture/tables/folding">Folding</a></li>
+            <li><a href="/t/furniture/tables/extension-slash-cantilever">Extension/Cantilever</a></li>
+            <li><a href="/t/furniture/tables/reception">Reception</a></li>
+            <li><a href="/t/furniture/tables/boardroom">Boardroom</a></li>
+            <li><a href="/t/furniture/tables/office">Office</a></li>
+            <li><a href="/t/furniture/tables/various">Various</a></li>
+            <li><a href="/t/furniture/tables/unspecified">Unspecified</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Printer Stands</a>
+          <ul>
+            <li><a href="/t/furniture/printer-stands/unspecified">Unspecified</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Filing Cabinets</a>
+          <ul>
+            <li><a href="/t/furniture/filing-cabinets/single-drawer">Single Drawer</a></li>
+            <li><a href="/t/furniture/filing-cabinets/two-drawer">Two Drawer</a></li>
+            <li><a href="/t/furniture/filing-cabinets/three-drawer">Three Drawer</a></li>
+            <li><a href="/t/furniture/filing-cabinets/four-drawer">Four Drawer</a></li>
+            <li><a href="/t/furniture/filing-cabinets/combi-units">Combi-Units</a></li>
+            <li><a href="/t/furniture/filing-cabinets/multi-drawer">Multi-Drawer</a></li>
+            <li><a href="/t/furniture/filing-cabinets/unspecified">Unspecified</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Pedestals</a>
+          <ul>
+            <li><a href="/t/furniture/pedestals/single-drawer">Single Drawer</a></li>
+            <li><a href="/t/furniture/pedestals/two-drawer">Two Drawer</a></li>
+            <li><a href="/t/furniture/pedestals/three-drawer">Three Drawer</a></li>
+            <li><a href="/t/furniture/pedestals/four-drawer">Four Drawer</a></li>
+            <li><a href="/t/furniture/pedestals/conversion-kit">Conversion Kit</a></li>
+            <li><a href="/t/furniture/pedestals/other">Other</a></li>
+            <li><a href="/t/furniture/pedestals/unspecified">Unspecified</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Cupboards/Lockers</a>
+          <ul>
+            <li><a href="/t/furniture/cupboards-slash-lockers/cupboards-h-up-to-1200mm">Cupboards H up to 1200mm</a></li>
+            <li><a href="/t/furniture/cupboards-slash-lockers/cupboards-h-over-1200mm">Cupboards H over 1200mm</a></li>
+            <li><a href="/t/furniture/cupboards-slash-lockers/fitments">Fitments</a></li>
+            <li><a href="/t/furniture/cupboards-slash-lockers/lockers">Lockers</a></li>
+            <li><a href="/t/furniture/cupboards-slash-lockers/other">Other</a></li>
+            <li><a href="/t/furniture/cupboards-slash-lockers/unspecified">Unspecified</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Bookcases</a>
+          <ul>
+            <li><a href="/t/furniture/bookcases/h-up-to-1200mm">H up to 1200mm</a></li>
+            <li><a href="/t/furniture/bookcases/h-over-1200mm">H over 1200mm</a></li>
+            <li><a href="/t/furniture/bookcases/fitments">Fitments</a></li>
+            <li><a href="/t/furniture/bookcases/other">Other</a></li>
+            <li><a href="/t/furniture/bookcases/unspecified">Unspecified</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Other Storage</a>
+          <ul>
+            <li><a href="/t/furniture/other-storage/unspecified">Unspecified</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Canteen Furniture</a>
+          <ul>
+            <li><a href="/t/furniture/canteen-furniture/kitchen-units-slash-cupboards">Kitchen Units/Cupboards</a></li>
+            <li><a href="/t/furniture/canteen-furniture/tables">Tables</a></li>
+            <li><a href="/t/furniture/canteen-furniture/seating">Seating</a></li>
+            <li><a href="/t/furniture/canteen-furniture/other">Other</a></li>
+            <li><a href="/t/furniture/canteen-furniture/unspecified">Unspecified</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Office Trollies</a>
+          <ul>
+            <li><a href="/t/furniture/office-trollies/unspecified">Unspecified</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Furniture/Seating Accessories</a>
+          <ul>
+            <li><a href="/t/furniture/furniture-slash-seating-accessories/furniture-accessories">Furniture Accessories</a></li>
+            <li><a href="/t/furniture/furniture-slash-seating-accessories/seating-accessories-slash-arms">Seating Accessories/Arms</a></li>
+            <li><a href="/t/furniture/furniture-slash-seating-accessories/unspecified">Unspecified</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Management Seating</a>
+          <ul>
+            <li><a href="/t/furniture/management-seating/high-back">High Back</a></li>
+            <li><a href="/t/furniture/management-seating/medium-back">Medium Back</a></li>
+            <li><a href="/t/furniture/management-seating/low-back">Low Back</a></li>
+            <li><a href="/t/furniture/management-seating/unspecified">Unspecified</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Operator Seating</a>
+          <ul>
+            <li><a href="/t/furniture/operator-seating/high-back">High Back</a></li>
+            <li><a href="/t/furniture/operator-seating/medium-back">Medium Back</a></li>
+            <li><a href="/t/furniture/operator-seating/low-back">Low Back</a></li>
+            <li><a href="/t/furniture/operator-seating/with-arms">With Arms</a></li>
+            <li><a href="/t/furniture/operator-seating/without-arms">Without Arms</a></li>
+            <li><a href="/t/furniture/operator-seating/draughtman">Draughtman</a></li>
+            <li><a href="/t/furniture/operator-seating/industrial">Industrial</a></li>
+            <li><a href="/t/furniture/operator-seating/other">Other</a></li>
+            <li><a href="/t/furniture/operator-seating/unspecified">Unspecified</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Visitor Seating</a>
+          <ul>
+            <li><a href="/t/furniture/visitor-seating/chairs-with-arms">Chairs with Arms</a></li>
+            <li><a href="/t/furniture/visitor-seating/chairs-without-arms">Chairs without Arms</a></li>
+            <li><a href="/t/furniture/visitor-seating/sofas">Sofas</a></li>
+            <li><a href="/t/furniture/visitor-seating/side-unit">Side Unit</a></li>
+            <li><a href="/t/furniture/visitor-seating/multi-unit">Multi Unit</a></li>
+            <li><a href="/t/furniture/visitor-seating/unspecified">Unspecified</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Conference Seating</a>
+          <ul>
+            <li><a href="/t/furniture/conference-seating/stacking">Stacking</a></li>
+            <li><a href="/t/furniture/conference-seating/folding">Folding</a></li>
+            <li><a href="/t/furniture/conference-seating/with-arms">With Arms</a></li>
+            <li><a href="/t/furniture/conference-seating/side">Side</a></li>
+            <li><a href="/t/furniture/conference-seating/unspecified">Unspecified</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Furniture Other</a>
+          <ul>
+            <li><a href="/t/furniture/furniture-other/unspecified">Unspecified</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+
+-->
+
+
+
+
+  </ul>
+
+</nav>

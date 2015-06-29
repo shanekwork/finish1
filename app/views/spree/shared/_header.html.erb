@@ -1,0 +1,31 @@
+<header id="header" class="row" data-hook>
+	<div class="header-content">
+		<div class="container">		
+	  		<%= render :partial => 'spree/shared/nav_bar' %>
+			
+			<div id="link-to-cart" data-hook>
+			  <noscript>
+				<%= link_to Spree.t(:cart), '/cart' %>
+			  </noscript>
+			  &nbsp;
+			</div>    
+			<script>Spree.fetch_cart()</script>
+
+			<div class="phone">
+				<%= image_tag("phone-icon.png", :alt => "phone icon") %>
+				<div class="inside">
+					<p>Call us</p>
+					<a href="tel:0035314361847">+353 1 4361847</a>
+				</div>
+			</div>
+		</div><!--container-->
+	</div><!--header-content-->
+
+	<div id="main-menu">
+		<div class="container">
+				<figure id="logo" class="columns six" data-hook><%= logo %></figure>
+				<%= render :partial => 'spree/shared/main_nav_bar' if store_menu? %>
+		</div><!--container-->
+	</div><!--main-menu-->
+
+</header>

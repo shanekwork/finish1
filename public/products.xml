@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<products version="1.0">
+  <array>
+    <product>
+      <key>name</key>
+      <string>Elba A4 Mylar Index 1-5 White 100204623</string>
+      <key>description</key>
+      <string>A4 white mylar dividers with reinforced perforations for intensive use. Plastic coated tabs can be printed on either side for easy identification. Inserts are compatible with printers. A4 1 - 5.</string>
+      <key>price</key>
+      <string>4.09</string>
+    </product>
+    <product>
+      <key>name</key>
+      <string>Brother LC123Y Ink Cartridge Yellow</string>
+      <key>description</key>
+      <string>Original Brother Ink Cartridge. Manufactured to the highest standards. Capacity: 600ml. Colour: Yellow</string>
+      <key>price</key>
+      <string>17.68</string>
+    </product>
+    <product>
+      <key>name</key>
+      <string>BADGY Blank Pre-Punched Cards 5mm</string>
+      <key>description</key>
+      <string>BADGY Blank Pre-Punched Cards 5mm</string>
+      <key>price</key>
+      <string>59.5</string>
+    </product>
+    <product>
+      <key>name</key>
+      <string>Jemini Educational Chair For Age 7-9 Years Red</string>
+      <key>description</key>
+      <string>Jemini Educational Chair. polypropylene stackable seating designed specifically for schools and suitable for the 7-9 age group. Colour - Red.</string>
+      <key>price</key>
+      <string>45.08</string>
+    </product>
+    <product>
+      <key>name</key>
+      <string>Bic 4 Colour Fashion Grip Pen Assorted Pk 12 892290</string>
+      <key>description</key>
+      <string>Bic 4-Colour Fashion Grip Pen Assorted. Pack of 12. 1.0 tip gives line width of 0.7mm.</string>
+      <key>price</key>
+      <string>51.16</string>
+    </product>
+  </array>
+</products>

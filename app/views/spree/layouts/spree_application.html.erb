@@ -1,0 +1,259 @@
+<!doctype html>
+<!--[if lt IE 7 ]> <html class="ie ie6" lang="<%= I18n.locale %>"> <![endif]-->
+<!--[if IE 7 ]>    <html class="ie ie7" lang="<%= I18n.locale %>"> <![endif]-->
+<!--[if IE 8 ]>    <html class="ie ie8" lang="<%= I18n.locale %>"> <![endif]-->
+<!--[if IE 9 ]>    <html class="ie ie9" lang="<%= I18n.locale %>"> <![endif]-->
+<!--[if gt IE 9]><!--><html lang="<%= I18n.locale %>"><!--<![endif]-->
+  <head data-hook="inside_head">
+    <%= render :partial => 'spree/shared/head' %>
+    <style type="text/css">
+      figure#logo img {width: 150px !important;}
+    </style>
+  </head>
+  <body class="<%= body_class %>" id="<%= @body_id || 'default' %>" data-hook="body">
+
+    
+      <%= render :partial => 'spree/shared/header' %>
+  
+
+      <div id="wrapper" class="row" data-hook>
+        <div class="container">
+
+        <%= breadcrumbs(@taxon) %>
+
+        <%= render :partial => 'spree/shared/sidebar' if content_for? :sidebar %>
+
+        <div id="content" class="columns <%= !content_for?(:sidebar) ? "sixteen" : "twelve omega" %>" data-hook>
+          <%= flash_messages %>
+          <%= yield %>
+        </div>
+
+        <%= yield :templates %>
+
+        <%= render :partial => 'spree/shared/footer' %>
+        </div>
+      </div>
+
+    <%= render :partial => 'spree/shared/google_analytics' %>
+    <script>
+      Spree.api_key = <%= raw(try_spree_current_user.try(:spree_api_key).to_s.inspect) %>;
+    </script>
+  </body>
+</html>
+
+<script>
+  $('h6.taxonomy-root').eq(0).click(function(){
+    $('ul.taxons-list').eq(0).slideToggle('slow');
+  });
+  $('h6.taxonomy-root').eq(1).click(function(){
+    $('ul.taxons-list').eq(1).slideToggle('slow');
+  });
+  $('h6.taxonomy-root').eq(2).click(function(){
+    $('ul.taxons-list').eq(2).slideToggle('slow');
+  });
+  $('h6.taxonomy-root').eq(3).click(function(){
+    $('ul.taxons-list').eq(3).slideToggle('slow');
+  });
+  $('h6.taxonomy-root').eq(4).click(function(){
+    $('ul.taxons-list').eq(4).slideToggle('slow');
+  });
+  $('h6.taxonomy-root').eq(5).click(function(){
+    $('ul.taxons-list').eq(5).slideToggle('slow');
+  });
+  $('h6.taxonomy-root').eq(6).click(function(){
+    $('ul.taxons-list').eq(6).slideToggle('slow');
+  });
+  $('h6.taxonomy-root').eq(7).click(function(){
+    $('ul.taxons-list').eq(7).slideToggle('slow');
+  });
+  $('h6.taxonomy-root').eq(8).click(function(){
+    $('ul.taxons-list').eq(8).slideToggle('slow');
+  });
+  $('h6.taxonomy-root').eq(9).click(function(){
+    $('ul.taxons-list').eq(9).slideToggle('slow');
+  });
+  $('h6.taxonomy-root').eq(10).click(function(){
+    $('ul.taxons-list').eq(10).slideToggle('slow');
+  });
+  $('h6.taxonomy-root').eq(11).click(function(){
+    $('ul.taxons-list').eq(11).slideToggle('slow');
+  });
+  $('h6.taxonomy-root').eq(12).click(function(){
+    $('ul.taxons-list').eq(12).slideToggle('slow');
+  });
+  $('h6.taxonomy-root').eq(13).click(function(){
+    $('ul.taxons-list').eq(13).slideToggle('slow');
+  });
+  $('h6.taxonomy-root').eq(14).click(function(){
+    $('ul.taxons-list').eq(14).slideToggle('slow');
+  });
+  $('h6.taxonomy-root').eq(15).click(function(){
+    $('ul.taxons-list').eq(15).slideToggle('slow');
+  });
+  $('h6.taxonomy-root').eq(16).click(function(){
+    $('ul.taxons-list').eq(16).slideToggle('slow');
+  });
+  $('h6.taxonomy-root').eq(17).click(function(){
+    $('ul.taxons-list').eq(17).slideToggle('slow');
+  });
+  $('h6.taxonomy-root').eq(18).click(function(){
+    $('ul.taxons-list').eq(18).slideToggle('slow');
+  });
+  $('h6.taxonomy-root').eq(19).click(function(){
+    $('ul.taxons-list').eq(19).slideToggle('slow');
+  });
+  $('h6.taxonomy-root').eq(20).click(function(){
+    $('ul.taxons-list').eq(20).slideToggle('slow');
+  });
+  $('h6.taxonomy-root').eq(21).click(function(){
+    $('ul.taxons-list').eq(21).slideToggle('slow');
+  });
+  $('h6.taxonomy-root').eq(22).click(function(){
+    $('ul.taxons-list').eq(22).slideToggle('slow');
+  });
+  $('h6.taxonomy-root').eq(23).click(function(){
+    $('ul.taxons-list').eq(23).slideToggle('slow');
+  });
+  $('h6.taxonomy-root').eq(24).click(function(){
+    $('ul.taxons-list').eq(24).slideToggle('slow');
+  });
+  $('h6.taxonomy-root').eq(25).click(function(){
+    $('ul.taxons-list').eq(25).slideToggle('slow');
+  });
+  $('h6.taxonomy-root').eq(26).click(function(){
+    $('ul.taxons-list').eq(26).slideToggle('slow');
+  });
+  $('h6.taxonomy-root').eq(27).click(function(){
+    $('ul.taxons-list').eq(27).slideToggle('slow');
+  });
+  $('h6.taxonomy-root').eq(28).click(function(){
+    $('ul.taxons-list').eq(28).slideToggle('slow');
+  });
+  $('h6.taxonomy-root').eq(29).click(function(){
+    $('ul.taxons-list').eq(29).slideToggle('slow');
+  });
+  $('h6.taxonomy-root').eq(30).click(function(){
+    $('ul.taxons-list').eq(30).slideToggle('slow');
+  });
+  $('h6.taxonomy-root').eq(31).click(function(){
+    $('ul.taxons-list').eq(31).slideToggle('slow');
+  });
+  $('h6.taxonomy-root').eq(32).click(function(){
+    $('ul.taxons-list').eq(32).slideToggle('slow');
+  });
+  $('h6.taxonomy-root').eq(33).click(function(){
+    $('ul.taxons-list').eq(33).slideToggle('slow');
+  });
+  $('h6.taxonomy-root').eq(34).click(function(){
+    $('ul.taxons-list').eq(34).slideToggle('slow');
+  });
+  $('h6.taxonomy-root').eq(35).click(function(){
+    $('ul.taxons-list').eq(35).slideToggle('slow');
+  });
+  $('h6.taxonomy-root').eq(36).click(function(){
+    $('ul.taxons-list').eq(36).slideToggle('slow');
+  });
+  $('h6.taxonomy-root').eq(37).click(function(){
+    $('ul.taxons-list').eq(37).slideToggle('slow');
+  });
+  $('h6.taxonomy-root').eq(38).click(function(){
+    $('ul.taxons-list').eq(38).slideToggle('slow');
+  });
+  $('h6.taxonomy-root').eq(39).click(function(){
+    $('ul.taxons-list').eq(39).slideToggle('slow');
+  });
+  $('h6.taxonomy-root').eq(40).click(function(){
+    $('ul.taxons-list').eq(40).slideToggle('slow');
+  });
+  $('h6.taxonomy-root').eq(41).click(function(){
+    $('ul.taxons-list').eq(41).slideToggle('slow');
+  });
+  $('h6.taxonomy-root').eq(42).click(function(){
+    $('ul.taxons-list').eq(42).slideToggle('slow');
+  });
+  $('h6.taxonomy-root').eq(43).click(function(){
+    $('ul.taxons-list').eq(43).slideToggle('slow');
+  });
+  $('h6.taxonomy-root').eq(44).click(function(){
+    $('ul.taxons-list').eq(44).slideToggle('slow');
+  });
+  $('h6.taxonomy-root').eq(45).click(function(){
+    $('ul.taxons-list').eq(45).slideToggle('slow');
+  });
+  $('h6.taxonomy-root').eq(46).click(function(){
+    $('ul.taxons-list').eq(46).slideToggle('slow');
+  });
+  $('h6.taxonomy-root').eq(47).click(function(){
+    $('ul.taxons-list').eq(47).slideToggle('slow');
+  });
+  $('h6.taxonomy-root').eq(48).click(function(){
+    $('ul.taxons-list').eq(48).slideToggle('slow');
+  });
+  $('h6.taxonomy-root').eq(49).click(function(){
+    $('ul.taxons-list').eq(49).slideToggle('slow');
+  });
+  $('h6.taxonomy-root').eq(50).click(function(){
+    $('ul.taxons-list').eq(50).slideToggle('slow');
+  });
+  $('h6.taxonomy-root').eq(51).click(function(){
+    $('ul.taxons-list').eq(51).slideToggle('slow');
+  });
+  $('h6.taxonomy-root').eq(52).click(function(){
+    $('ul.taxons-list').eq(52).slideToggle('slow');
+  });
+  $('h6.taxonomy-root').eq(53).click(function(){
+    $('ul.taxons-list').eq(53).slideToggle('slow');
+  });
+  $('h6.taxonomy-root').eq(54).click(function(){
+    $('ul.taxons-list').eq(54).slideToggle('slow');
+  });
+  $('h6.taxonomy-root').eq(55).click(function(){
+    $('ul.taxons-list').eq(55).slideToggle('slow');
+  });
+  $('h6.taxonomy-root').eq(56).click(function(){
+    $('ul.taxons-list').eq(56).slideToggle('slow');
+  });
+  $('h6.taxonomy-root').eq(57).click(function(){
+    $('ul.taxons-list').eq(57).slideToggle('slow');
+  });
+  $('h6.taxonomy-root').eq(58).click(function(){
+    $('ul.taxons-list').eq(58).slideToggle('slow');
+  });
+  $('h6.taxonomy-root').eq(59).click(function(){
+    $('ul.taxons-list').eq(59).slideToggle('slow');
+  });
+  $('h6.taxonomy-root').eq(60).click(function(){
+    $('ul.taxons-list').eq(60).slideToggle('slow');
+  });
+  $('h6.taxonomy-root').eq(61).click(function(){
+    $('ul.taxons-list').eq(61).slideToggle('slow');
+  });
+  $('h6.taxonomy-root').eq(62).click(function(){
+    $('ul.taxons-list').eq(62).slideToggle('slow');
+  });
+  $('h6.taxonomy-root').eq(63).click(function(){
+    $('ul.taxons-list').eq(63).slideToggle('slow');
+  });
+  $('h6.taxonomy-root').eq(64).click(function(){
+    $('ul.taxons-list').eq(64).slideToggle('slow');
+  });
+  $('h6.taxonomy-root').eq(65).click(function(){
+    $('ul.taxons-list').eq(65).slideToggle('slow');
+  });
+  $('h6.taxonomy-root').eq(66).click(function(){
+    $('ul.taxons-list').eq(66).slideToggle('slow');
+  });
+  $('h6.taxonomy-root').eq(67).click(function(){
+    $('ul.taxons-list').eq(67).slideToggle('slow');
+  });
+  $('h6.taxonomy-root').eq(68).click(function(){
+    $('ul.taxons-list').eq(68).slideToggle('slow');
+  });
+  $('h6.taxonomy-root').eq(69).click(function(){
+    $('ul.taxons-list').eq(69).slideToggle('slow');
+  });
+</script>
+
+
+
+  

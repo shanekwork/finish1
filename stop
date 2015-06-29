@@ -1,0 +1,1985 @@
+[33mcommit ac33989698bd0d59c639670c90b298e2c1b73019[m
+Author: beaic3 <beaic3>
+Date:   Fri Mar 13 10:15:39 2015 +0000
+
+    test
+
+[33mcommit e266798b63946091d41f0e7c96598308d3f5db1b[m
+Author: beaic3 <beaic3>
+Date:   Fri Mar 13 09:49:12 2015 +0000
+
+    Add styles for new reviews
+
+[33mcommit 6f21f1b5ad6bc641ce61f567f6644d0487287ec7[m
+Author: beaic3 <beaic3>
+Date:   Thu Mar 12 17:18:15 2015 +0000
+
+    Add new styles for reviews
+
+[33mcommit 18a2081d71ed72c7283d3caa695ad6822fd9261c[m
+Author: beaic3 <beaic3>
+Date:   Thu Mar 12 17:11:09 2015 +0000
+
+    Add styles for reviews
+
+[33mcommit 9d71f875363e5b2b6af3e7c645c076901008845b[m
+Author: beaic3 <beaic3>
+Date:   Thu Mar 12 15:57:36 2015 +0000
+
+    Change in the structure of reviews
+
+[33mcommit 3179eed84d89173261ad717a0bb7a2564515c6d2[m
+Author: beaic3 <beaic3>
+Date:   Thu Mar 12 14:20:37 2015 +0000
+
+    Add styles for thumbnails products and change position of reviews in product pages
+
+[33mcommit db37f53aba63a91ee899f3d6bafe01f1d48ccb83[m
+Author: beaic3 <beaic3>
+Date:   Thu Mar 12 13:17:55 2015 +0000
+
+    Add class to priceCurrency span
+
+[33mcommit 6f2db1eedbd8f0bfd653fd361d29e0df8502562e[m
+Author: beaic3 <beaic3>
+Date:   Thu Mar 12 13:09:53 2015 +0000
+
+    test
+
+[33mcommit f2e148f022e5921a01a14c5b8022674bf1a5bbca[m
+Author: beaic3 <beaic3>
+Date:   Thu Mar 12 12:52:14 2015 +0000
+
+    test
+
+[33mcommit 03e35e9233effeeb837c4fd0cdf101e766be9e73[m
+Author: beaic3 <beaic3>
+Date:   Thu Mar 12 12:37:32 2015 +0000
+
+    test
+
+[33mcommit 3f706f2375ff77568762d9a0c7cc992be95054a4[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Thu Mar 12 12:22:25 2015 +0000
+
+    added product show page index
+
+[33mcommit 490dee072f0ec46219e02a0ccf66b70e7cb9764b[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Thu Mar 12 12:16:04 2015 +0000
+
+    gem remove contact
+
+[33mcommit 220cd3c34c80de2f8b2081a2be2ea6dc3e909173[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Thu Mar 12 12:14:35 2015 +0000
+
+    gem remove contact
+
+[33mcommit 332ec6b267cc219ee314ddc2bc73c6e0968afa2e[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Thu Mar 12 12:10:17 2015 +0000
+
+    gem remove contact
+
+[33mcommit 629ceb6fb4de2cbec659e1812327df585175cf09[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Thu Mar 12 12:07:04 2015 +0000
+
+    gem remove contact
+
+[33mcommit 48dbe4e58cabe5df3302e4fc60b8426281222329[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Thu Mar 12 12:05:57 2015 +0000
+
+    gem remove contact
+
+[33mcommit d3e327c74d31afb2db39f2ab4d2ae380208e4bfc[m
+Author: beaic3 <beaic3>
+Date:   Thu Mar 12 11:43:44 2015 +0000
+
+    Show priceCurrency span if has content by jquery
+
+[33mcommit 04cfdbf0722983c34b285ed65ec7587cdf7329c9[m
+Author: beaic3 <beaic3>
+Date:   Thu Mar 12 11:32:22 2015 +0000
+
+    Show priceCurrency span if has content by jquery
+
+[33mcommit f489964b762b6387c46cc7f3765a24853f04c5cd[m
+Author: beaic3 <beaic3>
+Date:   Thu Mar 12 11:16:32 2015 +0000
+
+    New Styles for product description
+
+[33mcommit 3f68f439d8a212b6edd0f9f9efe8b2da9e0001f4[m
+Author: beaic3 <beaic3>
+Date:   Thu Mar 12 10:17:37 2015 +0000
+
+    Add styles for product description
+
+[33mcommit 9e07a0432ca99a391c5b55a269ed77d0289f13a7[m
+Author: beaic3 <beaic3>
+Date:   Thu Mar 12 09:39:49 2015 +0000
+
+    Show the pathname with a an alert
+
+[33mcommit 25412f4aca70df674e0812f4b5a59dcba013b834[m
+Author: beaic3 <beaic3>
+Date:   Thu Mar 12 09:31:01 2015 +0000
+
+    Show the pathname witha an alert
+
+[33mcommit eec0af7258a5d636ff046ad473807f3d8b97136a[m
+Author: beaic3 <beaic3>
+Date:   Thu Mar 12 09:27:02 2015 +0000
+
+    Show the pathname witha an alert
+
+[33mcommit 45f0671bfce71afb916bceb65a8093a1d2fc3489[m
+Author: beaic3 <beaic3>
+Date:   Wed Mar 11 17:09:14 2015 +0000
+
+    Add class just to home page
+
+[33mcommit 309ab3265607574ca42e238fb3d0ca4c6278a3d9[m
+Author: beaic3 <beaic3>
+Date:   Wed Mar 11 17:01:28 2015 +0000
+
+    Add class just to home page
+
+[33mcommit a9e89d36df63103deb04edbe32dc0731910d2835[m
+Author: beaic3 <beaic3>
+Date:   Wed Mar 11 14:18:52 2015 +0000
+
+    Styles for searcher
+
+[33mcommit b56cbf12fe039a626d1bb7afa31948435afbec60[m
+Author: beaic3 <beaic3>
+Date:   Wed Mar 11 14:05:03 2015 +0000
+
+    Add styles for the hover of the header links
+
+[33mcommit 2a0fa33a67efd678d6cc6e8f342923dfc54b41cb[m
+Author: beaic3 <beaic3>
+Date:   Wed Mar 11 13:34:22 2015 +0000
+
+    Add styles for header links
+
+[33mcommit 8cca41e4f7277811d8b534604718ee35668d61d7[m
+Author: beaic3 <beaic3>
+Date:   Wed Mar 11 13:14:27 2015 +0000
+
+    Add link header images
+
+[33mcommit 324413e7eff9e08111c12e25ae7cf6588fb8788d[m
+Author: beaic3 <beaic3>
+Date:   Wed Mar 11 12:42:01 2015 +0000
+
+    Changes on javascript of header links
+
+[33mcommit fa1971a18ba089311a61e2b71a255522ac8988bd[m
+Author: beaic3 <beaic3>
+Date:   Wed Mar 11 12:33:34 2015 +0000
+
+    Chnages on javascript of header links
+
+[33mcommit bf17dd8dd4079e68e102e5e999f2a6edae9d866d[m
+Author: beaic3 <beaic3>
+Date:   Tue Mar 10 17:00:49 2015 +0000
+
+    Add class to nav-bar links
+
+[33mcommit 12b01309686a46ebc5862c1d12dbd5f4549d2ec8[m
+Author: beaic3 <beaic3>
+Date:   Tue Mar 10 16:08:37 2015 +0000
+
+    Final styles for error and success when login
+
+[33mcommit 3c9e53edee725b36a41b0f305e8e67d0b0aa2553[m
+Author: beaic3 <beaic3>
+Date:   Tue Mar 10 16:05:00 2015 +0000
+
+    Styles for error when login
+
+[33mcommit fc0f9484f865d19b596dfb3f53719b22ab4103b2[m
+Author: beaic3 <beaic3>
+Date:   Tue Mar 10 15:59:36 2015 +0000
+
+    Add new styles and images for success and error login
+
+[33mcommit 27592982f87f30022490b69f3f90a596dd8fa1f0[m
+Author: beaic3 <beaic3>
+Date:   Tue Mar 10 15:53:42 2015 +0000
+
+    Add styles for succesfull and error login
+
+[33mcommit a43fb67aae87de989d9217c66cefd0b82d1eba2d[m
+Author: beaic3 <beaic3>
+Date:   Tue Mar 10 13:43:18 2015 +0000
+
+    Add text to javascript message
+
+[33mcommit c75ad3eb05299c7aefecc5249066867f0ddca3d8[m
+Author: beaic3 <beaic3>
+Date:   Tue Mar 10 13:31:39 2015 +0000
+
+    Correct javascript added
+
+[33mcommit 11edf7eaf9f9dd42495dd803198dac5c98c19297[m
+Author: beaic3 <beaic3>
+Date:   Tue Mar 10 13:24:55 2015 +0000
+
+    Styles for tabs and products in index
+
+[33mcommit c086825f258d87616519cc743c0ce2efbce66cad[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Tue Mar 10 12:56:22 2015 +0000
+
+    product model try hide catalogue products
+
+[33mcommit 1d59511538222708bdcc3dcc20d83d5ed12baa1e[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Tue Mar 10 12:51:22 2015 +0000
+
+    product model try hide catalogue products
+
+[33mcommit f64eeee3e1254c209a4afb7b6f7726c41ce7959b[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Tue Mar 10 11:59:43 2015 +0000
+
+    catalogue model relation
+
+[33mcommit 4e8d24af8218e89875f69a5b0a5b6ad0f08d308d[m
+Author: beaic3 <beaic3>
+Date:   Tue Mar 10 11:42:04 2015 +0000
+
+    test
+
+[33mcommit 8dd9431b66a875de96222c2e509ae7bd1d508e2f[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Tue Mar 10 11:35:41 2015 +0000
+
+    migration catalogue
+
+[33mcommit 42dd31bdabcf37715fc91a61024b8d097ceba7e5[m
+Author: beaic3 <beaic3>
+Date:   Tue Mar 10 11:33:11 2015 +0000
+
+    style
+
+[33mcommit 6ae9b06c0f054a3bbf71d13ff706f4ad23e5fe66[m
+Merge: 73ffa44 f490fdc
+Author: beaic3 <beaic3>
+Date:   Tue Mar 10 11:11:03 2015 +0000
+
+    Merge branch 'secondary'
+
+[33mcommit f490fdc21af16b0fc7ae1ceff1bdb538fee53b64[m
+Author: beaic3 <beaic3>
+Date:   Tue Mar 10 11:10:07 2015 +0000
+
+    test
+
+[33mcommit 4b959c7a72cf4417012aa0c38b1b99ecf1f7f6ba[m
+Author: beaic3 <beaic3>
+Date:   Tue Mar 10 11:09:30 2015 +0000
+
+    Revert "test"
+    
+    This reverts commit 28ce79689d003cd1bd29f7c3bf7cb7925c7bf611.
+
+[33mcommit 73ffa4463c89528cfdbb1dbc55a2d83eae64239f[m
+Merge: 28ce796 94faef4
+Author: beaic3 <beaic3>
+Date:   Tue Mar 10 11:08:29 2015 +0000
+
+    Merge branch 'master' of https://github.com/shanekwork/super
+
+[33mcommit 94faef4370da3d0e9cb5362890addf061f499cf7[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Tue Mar 10 11:06:13 2015 +0000
+
+    migration add catalogue
+
+[33mcommit 28ce79689d003cd1bd29f7c3bf7cb7925c7bf611[m
+Author: beaic3 <beaic3>
+Date:   Tue Mar 10 11:04:25 2015 +0000
+
+    test
+
+[33mcommit 5fa3616c1705db857f2a3771ba78da2ca24e155a[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Tue Mar 10 10:58:46 2015 +0000
+
+    t
+
+[33mcommit 690c7a664ec14fde857e0a3ff1b6cf23bfd9343b[m
+Merge: 48945c7 47464d7
+Author: beaic3 <beaic3>
+Date:   Mon Mar 9 17:18:33 2015 +0000
+
+    Merge branch 'secondary'
+
+[33mcommit 47464d72e1bcfec256642597402b5bda1257aa7f[m
+Author: beaic3 <beaic3>
+Date:   Mon Mar 9 16:59:37 2015 +0000
+
+    g
+
+[33mcommit 657e0edb1f611d7ce29bd749b147631cf5e212e7[m
+Author: beaic3 <beaic3>
+Date:   Mon Mar 9 16:50:40 2015 +0000
+
+    d
+
+[33mcommit db64d3fcbf1118b080880ce3694b93ef37e63944[m
+Author: shanekwork <shanekweb@icloud.com>
+Date:   Mon Mar 9 16:44:59 2015 +0000
+
+    Update 20140723142536_add_cols_to_products.rb
+
+[33mcommit 48945c77767503c50083dd2d06b9247dc9f1000c[m
+Merge: 0b2b6c7 eca975a
+Author: beaic3 <beaic3>
+Date:   Mon Mar 9 16:44:01 2015 +0000
+
+    Merge branch 'secondary'
+
+[33mcommit eca975a79c00d35c44a1bd11916bdd87d8c26edf[m
+Author: beaic3 <beaic3>
+Date:   Mon Mar 9 16:32:26 2015 +0000
+
+    Change tabs structure and add styles
+
+[33mcommit 4e597c5d1f389c9326b727fecbc576075d7d6b83[m
+Author: beaic3 <beaic3>
+Date:   Mon Mar 9 14:27:07 2015 +0000
+
+    New styles for index tabs
+
+[33mcommit f269bb60654dc98706a58955f1cccc8f6ed1b6df[m
+Author: beaic3 <beaic3>
+Date:   Mon Mar 9 14:11:07 2015 +0000
+
+    Add styles for index tabs
+
+[33mcommit 9166a181d5ddfe1d2b8e4e9f880110e93ca1a876[m
+Author: beaic3 <beaic3>
+Date:   Mon Mar 9 13:48:21 2015 +0000
+
+    Add jquery tabs to the index
+
+[33mcommit 6a832946737684745c4c0273412e13d2ac29e811[m
+Author: beaic3 <beaic3>
+Date:   Mon Mar 9 13:14:54 2015 +0000
+
+    Change structure of Social in footer
+
+[33mcommit 5cada059efa3f55f27ef91be868200ebdca2a585[m
+Author: beaic3 <beaic3>
+Date:   Mon Mar 9 13:08:54 2015 +0000
+
+    Footer styles
+
+[33mcommit 140c2b7bc3e775668d90b21af5911293a4402a4b[m
+Author: beaic3 <beaic3>
+Date:   Mon Mar 9 12:25:57 2015 +0000
+
+    Add newsletter footer styles
+
+[33mcommit d1029ca4ee366e8bddfefe49a29a99b23aa4ceef[m
+Author: beaic3 <beaic3>
+Date:   Mon Mar 9 11:39:55 2015 +0000
+
+    Add font-awesome.css
+
+[33mcommit 50f9115022c5603ab248a0ff0baad6d88c6d03c0[m
+Author: beaic3 <beaic3>
+Date:   Mon Mar 9 11:35:20 2015 +0000
+
+    g
+
+[33mcommit 35fc792018157ef51f6128166955d1a35981f605[m
+Author: beaic3 <beaic3>
+Date:   Mon Mar 9 11:28:59 2015 +0000
+
+    Add font-awesome.css and styles header
+
+[33mcommit 21224c30cf1b5be8c684d9ef93d3a44bff9fbd84[m
+Author: beaic3 <beaic3>
+Date:   Mon Mar 9 11:16:06 2015 +0000
+
+    New header styles
+
+[33mcommit 0b2b6c7d76b4badbcd5150fc4eb640c5c5d8da31[m
+Merge: 3e99a1c c6ec2de
+Author: beaic3 <beaic3>
+Date:   Mon Mar 9 10:49:00 2015 +0000
+
+    Merge branch 'secondary'
+
+[33mcommit c6ec2de7d8cdf7f21c30a67f3a09970c354bccea[m
+Author: beaic3 <beaic3>
+Date:   Mon Mar 9 10:42:03 2015 +0000
+
+    Footer styles
+
+[33mcommit e26962756a6aad702701e9eef461f0228427897d[m
+Author: beaic3 <beaic3>
+Date:   Mon Mar 9 09:38:40 2015 +0000
+
+    Add styles for generic lists
+
+[33mcommit ef28bb0fa2be16fcb1232dca4ae8fec1a8e87b96[m
+Author: beaic3 <beaic3>
+Date:   Fri Mar 6 16:59:18 2015 +0000
+
+    Styles for Information of the footer
+
+[33mcommit 819134464ef7134a446a1840a9e407bdf6af790a[m
+Author: beaic3 <beaic3>
+Date:   Fri Mar 6 14:29:20 2015 +0000
+
+    Test structure Foooter
+
+[33mcommit 85eda53c574a4bc3d77e8a3a6c5bebcdf21a8f72[m
+Author: beaic3 <beaic3>
+Date:   Fri Mar 6 14:18:34 2015 +0000
+
+    Test structure footer
+
+[33mcommit 7f7b3c378a0dae5cc831e8299df440a1bdeacd3f[m
+Author: beaic3 <beaic3>
+Date:   Fri Mar 6 14:10:46 2015 +0000
+
+    Test content Footer
+
+[33mcommit 8d3f085a98ea19976bc51fa89131a90c7a4100b5[m
+Author: beaic3 <beaic3>
+Date:   Fri Mar 6 14:05:36 2015 +0000
+
+    Restructuration of footer
+
+[33mcommit 6db446fc20a7831c1ca95851f7c630be9f37f548[m
+Author: beaic3 <beaic3>
+Date:   Fri Mar 6 13:56:20 2015 +0000
+
+    Add new struture footer
+
+[33mcommit 008fa0b5d71e08af49155aec4d1e82ec81d55490[m
+Author: beaic3 <beaic3>
+Date:   Fri Mar 6 13:43:23 2015 +0000
+
+    Restore footer structure
+
+[33mcommit 531cb1e486faf1e972bad909f5761cc281b4aea0[m
+Author: beaic3 <beaic3>
+Date:   Fri Mar 6 13:32:50 2015 +0000
+
+    Chnages in _footer.html.erb
+
+[33mcommit ae0f079da8390cda3a5ab06873edbd8e128cd6b7[m
+Author: beaic3 <beaic3>
+Date:   Fri Mar 6 12:22:59 2015 +0000
+
+    Change footer inside #wrapper .container
+
+[33mcommit 294454842f4b7cb5d598ccf3dd2618a9badb3b3d[m
+Author: beaic3 <beaic3>
+Date:   Fri Mar 6 12:00:26 2015 +0000
+
+    New styles for third level of main menu
+
+[33mcommit 4a587f97238c80b18e07302a225b84828a2e3784[m
+Author: beaic3 <beaic3>
+Date:   Fri Mar 6 11:40:43 2015 +0000
+
+    Main menu third level styles
+
+[33mcommit cda5a699c3a7e1313aec77ee19c8014ad9e2a19b[m
+Author: beaic3 <beaic3>
+Date:   Fri Mar 6 11:12:03 2015 +0000
+
+    g
+
+[33mcommit b42c72d1829fc30116e129fd8d35f270ebade29e[m
+Author: beaic3 <beaic3>
+Date:   Fri Mar 6 11:05:17 2015 +0000
+
+    s
+
+[33mcommit 3e99a1c6f0d1204ede8b63ecb45944fa0ed49ec0[m
+Merge: 07d3c79 12b11df
+Author: beaic3 <beaic3>
+Date:   Fri Mar 6 11:00:47 2015 +0000
+
+    Merge branch 'secondary'
+
+[33mcommit 12b11dfae9c554fa66865e6ef0e8ab44ae7090ce[m
+Author: beaic3 <beaic3>
+Date:   Fri Mar 6 10:58:02 2015 +0000
+
+    d
+
+[33mcommit 408a0199e0e031db8d03b1ba48e94cf57dca5667[m
+Author: beaic3 <beaic3>
+Date:   Fri Mar 6 10:51:19 2015 +0000
+
+    Main menu secondary styles
+
+[33mcommit ba38346ca5780498fc51980d43ba04bf383992df[m
+Author: beaic3 <beaic3>
+Date:   Fri Mar 6 10:32:08 2015 +0000
+
+    Main menu second level styles
+
+[33mcommit 07d3c795368e25d166ae8c9f5d3bf5bb48a96418[m
+Merge: 6c52221 2cbfe6c
+Author: beaic3 <beaic3>
+Date:   Thu Mar 5 17:15:20 2015 +0000
+
+    Merge branch 'secondary'
+
+[33mcommit 2cbfe6cdc8b65e4095a3d50a7e175d96b39b1acc[m
+Author: beaic3 <beaic3>
+Date:   Thu Mar 5 17:12:37 2015 +0000
+
+    Styles in H1 of banner
+
+[33mcommit 6c522211dd453173508b276dc7c1b4ac4b0076d2[m
+Merge: 3e114f8 46216e3
+Author: beaic3 <beaic3>
+Date:   Thu Mar 5 17:05:47 2015 +0000
+
+    Merge branch 'secondary'
+
+[33mcommit 46216e34265b8c8cd56e381c70a32da581da01c6[m
+Author: beaic3 <beaic3>
+Date:   Thu Mar 5 17:03:11 2015 +0000
+
+    Menu CSS styles and add pencils image of banner
+
+[33mcommit 5195029cd7e1a69f6802972409b460260669fb9c[m
+Author: beaic3 <beaic3>
+Date:   Thu Mar 5 16:58:46 2015 +0000
+
+    Menu CSS styles and add pencils image of banner
+
+[33mcommit 453171b3d5b8dd8d24b6403855ca3c3199ca5ddf[m
+Author: beaic3 <beaic3>
+Date:   Thu Mar 5 15:57:04 2015 +0000
+
+    Change logo and cart hover image
+
+[33mcommit 3e114f8029cbea5e1118a900f66d6b61c28a550d[m
+Merge: 3308cc8 1be04c3
+Author: beaic3 <beaic3>
+Date:   Thu Mar 5 14:28:29 2015 +0000
+
+    Merge branch 'secondary'
+
+[33mcommit 1be04c3195d82bc05c5c1b6e7803d78b83c77c37[m
+Author: beaic3 <beaic3>
+Date:   Thu Mar 5 14:25:15 2015 +0000
+
+    Changes in Header styles
+
+[33mcommit 748892927e5aaf0e202e623980643fea669d3a90[m
+Author: beaic3 <beaic3>
+Date:   Thu Mar 5 14:16:55 2015 +0000
+
+    Header styles and add cart hover image
+
+[33mcommit e94b6cd929dbbfe309b61b90ad4d891ef6ab7c10[m
+Author: beaic3 <beaic3>
+Date:   Thu Mar 5 12:04:28 2015 +0000
+
+    revert searcher in div label
+
+[33mcommit c6faa7d5e06fba898315010740c0df1a26ccaa90[m
+Author: beaic3 <beaic3>
+Date:   Thu Mar 5 11:55:16 2015 +0000
+
+    Searcher in div label
+
+[33mcommit 580ac49d2b05091ca25d74235b43dffe85a75e97[m
+Author: beaic3 <beaic3>
+Date:   Thu Mar 5 11:30:56 2015 +0000
+
+    Add new CSS called styles.css
+
+[33mcommit dff8f42d599d4caaf4a8b164458ebfa425fd7cd7[m
+Author: beaic3 <beaic3>
+Date:   Thu Mar 5 11:22:01 2015 +0000
+
+    g
+
+[33mcommit 3308cc8abde157e3a31a4c87ac4974fa12138af3[m
+Author: beaic3 <beaic3>
+Date:   Thu Mar 5 11:08:54 2015 +0000
+
+    f
+
+[33mcommit 45b6622659294705a1b39a4a37b4cd809df31632[m
+Author: beaic3 <beaic3>
+Date:   Thu Mar 5 10:15:30 2015 +0000
+
+    Changes in CSS
+
+[33mcommit e80b908318beb4500d7fc57c5246acd8b0aace8b[m
+Author: beaic3 <beaic3>
+Date:   Thu Mar 5 10:06:00 2015 +0000
+
+    Upload application.css
+
+[33mcommit 60b0010118963a998794efa149e0481cd989b7e8[m
+Author: beaic3 <beaic3>
+Date:   Thu Mar 5 09:50:32 2015 +0000
+
+    Upload all.css
+
+[33mcommit b65f692414f9883362bd995d1e259d704903edc9[m
+Author: beaic3 <beaic3>
+Date:   Wed Mar 4 17:10:27 2015 +0000
+
+    Add CSS styles
+
+[33mcommit 8d0be189ff314d7d9e40fb1a1b71b20b7264a9c5[m
+Author: beaic3 <beaic3>
+Date:   Wed Mar 4 17:01:13 2015 +0000
+
+    Add CSS styles
+
+[33mcommit 31be197de20e847e99b550e99af1471b27a5383f[m
+Author: beaic3 <beaic3>
+Date:   Wed Mar 4 16:50:47 2015 +0000
+
+    t
+
+[33mcommit 170c0ebe944a063788d2054ea0cba7aa12fe95ba[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Wed Mar 4 16:26:13 2015 +0000
+
+    test
+
+[33mcommit f2630fa5853e40efc0cb6acb08adf7ed51e24956[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Wed Mar 4 16:24:35 2015 +0000
+
+    test
+
+[33mcommit a25bd8dd30896d94f50c4e1e4716c04c415ade59[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Wed Mar 4 16:19:17 2015 +0000
+
+    test
+
+[33mcommit c1e4f23bd5374ecc9836db6282d59ab655d7457a[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Wed Mar 4 16:17:47 2015 +0000
+
+    test
+
+[33mcommit 2f06192502e049d1ce9a383be779434b408c8cba[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Wed Mar 4 16:12:52 2015 +0000
+
+    test
+
+[33mcommit e0b304dbfdcb2d3c35957ad83935ac0bd0bc5e89[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Wed Mar 4 16:10:56 2015 +0000
+
+    test
+
+[33mcommit 1ab7b7fdd9995a46c95b45120c8b5bb536d24ccf[m
+Author: beaic3 <beaic3>
+Date:   Wed Mar 4 15:54:48 2015 +0000
+
+    t
+
+[33mcommit d2668151cc1037ea9c223cb0fc5d784a9361d783[m
+Author: beaic3 <beaic3>
+Date:   Wed Mar 4 15:34:24 2015 +0000
+
+    Add CSS styles and changes in the structure of _header.html.erb and index.html.erb
+
+[33mcommit fe00fdee7ac9b3984fa141cc35a208a928096c82[m
+Author: beaic3 <beaic3>
+Date:   Wed Mar 4 13:30:18 2015 +0000
+
+    Add header images and change the structure on it
+
+[33mcommit da3c5235dc5cdb9023b6c7efbca2a15157d5f5d2[m
+Author: beaic3 <beaic3>
+Date:   Wed Mar 4 12:12:17 2015 +0000
+
+    Change in header
+
+[33mcommit 5cc966263f4b668e76188303827bd49bffdd1f28[m
+Author: beaic3 <beaic3>
+Date:   Wed Mar 4 11:44:06 2015 +0000
+
+    Change in the header
+
+[33mcommit 1cd16e8e620428862595abce2e88971addbc1953[m
+Author: beaic3 <beaic3>
+Date:   Wed Mar 4 11:31:32 2015 +0000
+
+    Changes in the structure of _header.html.erb and _main_nav_bar.html.erb
+
+[33mcommit 5f51770fcd1419d65d8cf71e1fcbb3e965261a0b[m
+Author: beaic3 <beaic3>
+Date:   Wed Mar 4 10:24:31 2015 +0000
+
+    typed in header
+
+[33mcommit 200fc3962551389fb8e4aca65f1c677ce8a68564[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Tue Mar 3 12:02:36 2015 +0000
+
+    removerd app2
+
+[33mcommit d3a390c528d7b7923ee5136bc21dbf6eb57ff3c3[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Fri Feb 27 15:39:23 2015 +0000
+
+    try nav back
+
+[33mcommit 9fd254f04a0f0304e8fd6fee75067f461f112e21[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Tue Feb 24 10:57:18 2015 +0000
+
+    added new layout file
+
+[33mcommit d3f2593e7c54358715d7df55fd1ff0786b7a65bb[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Tue Feb 24 10:54:01 2015 +0000
+
+    added new layout file
+
+[33mcommit 1876ee251374ee95aeaac27206307c56f3db7a9a[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Tue Feb 24 10:41:17 2015 +0000
+
+    added mailer and edited user_registrations_controller
+
+[33mcommit 3a8878873670ac0c918fd18761b62bdafaa91c55[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Tue Feb 24 10:34:15 2015 +0000
+
+    added mailer and edited user_registrations_controller
+
+[33mcommit 614dd6ccf35d4b0ce6578dd2c8a68b4538d0fde5[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Mon Feb 23 11:54:26 2015 +0000
+
+    contacts controller redirect
+
+[33mcommit a18dd3724aeaf3b527b07b5263888c549784ad29[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Mon Feb 23 11:37:57 2015 +0000
+
+    edited contacts model and controller
+
+[33mcommit f447bbe93f90284f8abc9e0667db1ef6024f4fe7[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Mon Feb 23 11:35:54 2015 +0000
+
+    edited contacts model and controller
+
+[33mcommit eea9ff18407a53123e5f4a44988f0ada99fff61f[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Mon Feb 23 11:16:39 2015 +0000
+
+    contact form
+
+[33mcommit 1cf6d6b818f539475ffaf2bebadadb34511613c2[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Mon Feb 23 11:13:25 2015 +0000
+
+    contact form
+
+[33mcommit 98cef03949b6978db2a27d053ec3ad8398ce5d00[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Mon Feb 23 11:02:54 2015 +0000
+
+    added gems mail_form and simple_form
+
+[33mcommit f8bc01310556db192e16e991300a22173e731e7f[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Mon Feb 23 11:01:09 2015 +0000
+
+    added gems mail_form and simple_form
+
+[33mcommit 749818633eea42edd32741ff08b94412583978d6[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Mon Feb 23 10:44:22 2015 +0000
+
+    removed sidebar shared
+
+[33mcommit 383d15104809d124541d9a2550a042fc5368c51a[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Mon Feb 23 10:41:30 2015 +0000
+
+    removed sidebar shared
+
+[33mcommit 9818eb477e9d36a40c8c9ae9bbcb2a5d17bad3c3[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Mon Feb 23 10:39:29 2015 +0000
+
+    removed sidebar shared
+
+[33mcommit e57fdc27ae760adfda49befd6431b6e001cddd61[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Mon Feb 23 10:36:21 2015 +0000
+
+    removed sidebar shared
+
+[33mcommit 520824ef7c2f667441d7c3464af89b90a7fc1995[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Mon Feb 23 10:19:27 2015 +0000
+
+    remove sidebar
+
+[33mcommit e8f5d98afeabcd03ff759e737b62b3b02c46950f[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Mon Feb 23 10:16:39 2015 +0000
+
+    remove sidebar
+
+[33mcommit 6c3489a2590933cfb6277a75e896c54570adcb21[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Fri Feb 20 16:44:31 2015 +0000
+
+    store logo admin
+
+[33mcommit 19af57d115af5bfdb512d653d8bf033e6f61fe8c[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Fri Feb 20 16:42:24 2015 +0000
+
+    store logo
+
+[33mcommit b64486f479a61deb6b63186b2cf43e75f8fc4f3a[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Fri Feb 20 16:40:22 2015 +0000
+
+    store logo
+
+[33mcommit 2f1165d3c868379a6ba7e10b3def46c4354d299d[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Fri Feb 20 16:38:10 2015 +0000
+
+    store logo
+
+[33mcommit f4a1cc9a0e0fd5bbc72e68e87380c646374f617e[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Fri Feb 20 16:35:05 2015 +0000
+
+    store logo
+
+[33mcommit dd415042ef0d8de98121956f7253dee2dad6a1f3[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Fri Feb 20 16:30:37 2015 +0000
+
+    store logo
+
+[33mcommit 2fccc7acb17ef17f5547ce9a8da3f0aeae0fc121[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Fri Feb 20 16:19:32 2015 +0000
+
+    layout hide continue in paypal express input
+
+[33mcommit bc57c7ce3b09dd526ebb2149670dca3d79619206[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Fri Feb 20 16:15:19 2015 +0000
+
+    layout hide continue in paypal express input
+
+[33mcommit 8bf6f9674ee249e7740f46e96400f04fafb473e8[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Fri Feb 20 16:11:51 2015 +0000
+
+    layout hide continue in paypal express input
+
+[33mcommit 4ffb509d9323361818cab566db9f591bc393959e[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Fri Feb 20 16:05:38 2015 +0000
+
+    layout hide continue in paypal express input
+
+[33mcommit f15b771aef0e902aaaa38dbe47137e379dbca039[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Fri Feb 20 16:02:51 2015 +0000
+
+    layout hide continue in paypal express input
+
+[33mcommit 65a0096e7615009edcfe9584062159ba0a39049f[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Fri Feb 20 15:57:59 2015 +0000
+
+    layout hide continue in paypal express input
+
+[33mcommit 862b47b29ea9168ab6daaed5637e857540ea9252[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Fri Feb 20 15:51:08 2015 +0000
+
+    layout hide continue in paypal express input
+
+[33mcommit 1d8eb24ef3b3ad9ceb422962bae09921cefe3117[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Fri Feb 20 15:46:56 2015 +0000
+
+    layout hide continue in paypal express input
+
+[33mcommit f4c1cd98e6e9f395cf6b759bb6159f8d749f61a1[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Fri Feb 20 15:41:59 2015 +0000
+
+    layout hide continue in paypal express input
+
+[33mcommit b4869f7d4a4f2667c3fb3dc56cb82fbfee6ec57b[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Fri Feb 20 15:40:20 2015 +0000
+
+    layout hide continue in paypal express input
+
+[33mcommit 2d45c0272c1c2ee6db743d4a09f6b9ac0acfa83c[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Fri Feb 20 15:36:43 2015 +0000
+
+    layout hide continue in paypal express input
+
+[33mcommit a7c189e114e25a914a4651c22187b3f06c5929e3[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Fri Feb 20 14:58:15 2015 +0000
+
+    layout hide continue in paypal express input
+
+[33mcommit bcdd4d4c03b92ff0dd17afa3fbfbdf558c766666[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Fri Feb 20 14:08:10 2015 +0000
+
+    layout hide continue in paypal express input
+
+[33mcommit 6467be4465f3070e250de6b149b731517c50365b[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Fri Feb 20 14:04:47 2015 +0000
+
+    layout hide continue in paypal express input
+
+[33mcommit b27eb50ba7912c1d1bfcad435686d092d5b52f98[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Fri Feb 20 14:03:06 2015 +0000
+
+    layout hide continue in paypal express input
+
+[33mcommit 2de4588503ca4894baabc0fc6fafe8346eb33637[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Fri Feb 20 13:53:52 2015 +0000
+
+    layout hide continue in paypal express input
+
+[33mcommit 2fa4879eecd0adbb9c5ca7ba01537780d9544635[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Fri Feb 20 13:50:24 2015 +0000
+
+    layout hide continue in paypal express input
+
+[33mcommit 2a6c797bb1502d0525ecd07fc63220f4f145bc22[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Fri Feb 20 13:48:02 2015 +0000
+
+    layout hide continue in paypal express input
+
+[33mcommit 3b35abd8a107a88875773d62d9330c6676b50478[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Fri Feb 20 13:43:41 2015 +0000
+
+    layout hide continue in paypal express input
+
+[33mcommit 1873fa0bb947daab71346aff06b0459612585896[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Fri Feb 20 13:33:36 2015 +0000
+
+    layout hide continue in paypal express input
+
+[33mcommit 6c34123f7aa2a77b4e275b45d604b683a8019fcc[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Fri Feb 20 13:28:17 2015 +0000
+
+    layout hide continue in paypal express input
+
+[33mcommit 0e7894626b8b06b6ddf3f2573c44e745c8615a15[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Fri Feb 20 12:56:45 2015 +0000
+
+    layout hide continue in paypal express input
+
+[33mcommit 6978891438b5b8c72fdad0babe377979f6ada804[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Fri Feb 20 12:52:04 2015 +0000
+
+    layout hide continue in paypal express input
+
+[33mcommit 6ab50af2124d126f39e0336d531af36df37a64e6[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Fri Feb 20 12:49:07 2015 +0000
+
+    layout hide continue in paypal express input
+
+[33mcommit 0fbf3aa78a4023d0a77d09011094e984bff693ce[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Fri Feb 20 12:42:33 2015 +0000
+
+    removed mailers
+
+[33mcommit ee5ac97778c8c58dcf729e93c3ad62c616e677d2[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Fri Feb 20 12:18:02 2015 +0000
+
+    image on checkout delivery
+
+[33mcommit 9a22b8ff3735e7f8dcf13b5dd8422b708c65b2f8[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Fri Feb 20 12:16:26 2015 +0000
+
+    image on checkout delivery
+
+[33mcommit ac320a6f1b917aa4b0b0132e4fc53bec06bcb36a[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Fri Feb 20 12:14:24 2015 +0000
+
+    image on checkout delivery
+
+[33mcommit ff5f4bda0ed1cda980bb1286d8a5319ac0059118[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Fri Feb 20 11:44:30 2015 +0000
+
+    image on checkout delivery
+
+[33mcommit a0ae3720801f291c2ce68adb15a6e4e6495ca74b[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Fri Feb 20 11:29:58 2015 +0000
+
+    image on checkout delivery
+
+[33mcommit 8eaaea9a34b2099388edccecaec4528fbe5f81c4[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Fri Feb 20 11:28:21 2015 +0000
+
+    image on checkout delivery
+
+[33mcommit 4ff71874ca167450231a5be85cfe518604b7c241[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Fri Feb 20 11:24:11 2015 +0000
+
+    image on checkout delivery
+
+[33mcommit a9ffee408b82371e6b731434eea8e6ac0e87f253[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Fri Feb 20 11:22:48 2015 +0000
+
+    image on checkout delivery
+
+[33mcommit 21a575de236e55619bf77f887da6862ecd1555b6[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Fri Feb 20 10:52:47 2015 +0000
+
+    image on checkout delivery
+
+[33mcommit 59425769115fe9450fdb620768ade95f7402aa0b[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Fri Feb 20 10:50:37 2015 +0000
+
+    image on checkout delivery
+
+[33mcommit d8d93c93af36b651e7ac67665a07670e8dcbdec1[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Fri Feb 20 10:49:01 2015 +0000
+
+    image on checkout delivery
+
+[33mcommit 81104de7903ff2ad1715d39b6536ce7d11f6ff30[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Fri Feb 20 10:45:16 2015 +0000
+
+    image on checkout delivery
+
+[33mcommit 8cc0eb9a86cde4901ac8b545111ae0561098c94b[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Fri Feb 20 10:36:23 2015 +0000
+
+    image on checkout delivery
+
+[33mcommit bbe7441ff12626c9283eaf6483c0790a706428ef[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Fri Feb 20 10:26:23 2015 +0000
+
+    image on checkout delivery
+
+[33mcommit 552d38129ae71a0f6b098fa30ef0897921f4a9e0[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Fri Feb 20 10:24:50 2015 +0000
+
+    image on checkout delivery
+
+[33mcommit 84e364c51d98daa06ba596c943fd781079b41226[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Fri Feb 20 09:59:01 2015 +0000
+
+    address book
+
+[33mcommit 4c7481c2b2e3827368f2f29f60c3ee61220b3afd[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Thu Feb 19 16:00:15 2015 +0000
+
+    spree view order adjustment row
+
+[33mcommit 25460be197fba79cb1a5a922e443d552e940df70[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Thu Feb 19 15:51:19 2015 +0000
+
+    spree view order adjustment row
+
+[33mcommit 0ff599d598f21023293e28e985f2646b407fd755[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Thu Feb 19 15:39:45 2015 +0000
+
+    spree view order adjustment row
+
+[33mcommit 47c8ebf3ba9d42c6b0f499f87538a4696a8ea30f[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Thu Feb 19 15:37:11 2015 +0000
+
+    spree view order adjustment row
+
+[33mcommit 8a21c3067e2421fe9c6a90ea36029aa0117d566a[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Thu Feb 12 13:23:55 2015 +0000
+
+    revert filters
+
+[33mcommit 87609efc4b2b808d25a3be298c497f310e057db5[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Thu Feb 12 12:26:04 2015 +0000
+
+    edited shared filters remove sidebar all taxons static pages
+
+[33mcommit 813ef8b9fa90b4f94c661a8b2fe2e50269721810[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Thu Feb 5 11:08:03 2015 +0000
+
+    index ubuntu test
+
+[33mcommit c52dbc9a6f70cf778aaf98cefa1d1f4d43af26b9[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Wed Feb 4 10:31:07 2015 +0000
+
+    app view spree index banner h1 test heroku connection
+
+[33mcommit 450b751cbfee286d811d5b33aea61812d3ac4aab[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Wed Feb 4 10:10:48 2015 +0000
+
+    set up on new lap
+
+[33mcommit 7b05c28669808e2fd8198b4c467c99f2b1dfa2dc[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Thu Jan 29 16:27:51 2015 +0000
+
+    user id in scheduler
+
+[33mcommit 1d440d7d8ea6447cdd86669962d7839e9f3df989[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Thu Jan 29 16:13:54 2015 +0000
+
+    sch
+
+[33mcommit d1b10e9c2ba3c1b2c48a01c98b74a649ae6250f4[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Thu Jan 29 15:40:26 2015 +0000
+
+    scheduler
+
+[33mcommit 92ed673f0c0c6a5b328ea16b9b15a96445334cfb[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Thu Jan 29 15:34:44 2015 +0000
+
+    _form for checkout city zipcode change
+
+[33mcommit 2d49c16a04eec44a038d632fec1ed8e0b3b490fd[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Thu Jan 29 15:26:01 2015 +0000
+
+    _form for checkout city zipcode change
+
+[33mcommit d10d551b78292d3e8261f05ddafd8326f93386a7[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Thu Jan 29 15:03:29 2015 +0000
+
+    init add phone numbers
+
+[33mcommit 447fba10a8eaab50f475bc4d973dc4dc1ee43935[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Thu Jan 29 14:38:52 2015 +0000
+
+    sch
+
+[33mcommit 8ba398ba9a3598632ef620be0f20ba3e472cfff9[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Thu Jan 29 14:17:39 2015 +0000
+
+    initialier company name
+
+[33mcommit 8b49be128c7bd5bb4e89290840d469c2d8c4cef0[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Thu Jan 29 12:40:23 2015 +0000
+
+    scheduler fill out orderline
+
+[33mcommit b24cb668f935bde361646377511c54f7977923be[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Thu Jan 29 12:34:02 2015 +0000
+
+    scheduler fill out orderline
+
+[33mcommit f6233abbd382834f64067338cdf3e79324d3c65e[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Thu Jan 29 12:22:34 2015 +0000
+
+    sch
+
+[33mcommit 34b231d64f63d88e6f066e63972386ba18704846[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Thu Jan 29 12:01:22 2015 +0000
+
+    sch
+
+[33mcommit 0d79535b8eebc2ec377856d0ce4a47ca7e157e8e[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Thu Jan 29 11:44:37 2015 +0000
+
+    sch
+
+[33mcommit 5797b90f5dc7e2bdd51b9b253e2fb7c5bde96867[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Thu Jan 29 11:31:10 2015 +0000
+
+    sch
+
+[33mcommit dc8e98466126d501f1dd1148fc0c9b87b3ccc8bd[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Thu Jan 29 11:25:05 2015 +0000
+
+    scheduler time
+
+[33mcommit 54501cdfc3eb58781dcb5290745e6fac4abaea0a[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Thu Jan 29 10:12:34 2015 +0000
+
+    scheduler strftime
+
+[33mcommit 96b0e800dbb7413bce61be13e65e3efcfd789f93[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Thu Jan 29 10:08:36 2015 +0000
+
+    scheduler strftime
+
+[33mcommit f3eaf7d7cae9150c4992480f2a00d62272847b98[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Thu Jan 29 10:04:23 2015 +0000
+
+    scheduler strftime
+
+[33mcommit 6ec994e5292491db2f38ac8eaae1aa10ca6c4b21[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Thu Jan 29 09:53:23 2015 +0000
+
+    scheduler strftime
+
+[33mcommit c22dbe69983b555e5274d8383dd701a722f07ef1[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Wed Jan 28 17:19:27 2015 +0000
+
+    sch
+
+[33mcommit c0ddacfeab0bf1d02a80bfba88dc1a92034f6e62[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Wed Jan 28 17:17:47 2015 +0000
+
+    sch
+
+[33mcommit 37f5a5f9223eab3d6f091f37c782b8445a24755d[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Tue Jan 27 16:46:29 2015 +0000
+
+    sch
+
+[33mcommit 997cad2f1c8e4a478f2af3d08568fb51bfcf24c0[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Tue Jan 27 16:43:34 2015 +0000
+
+    sch
+
+[33mcommit 7731fe8711519804cfd932595e2a449c0b118c82[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Tue Jan 27 16:41:02 2015 +0000
+
+    sch
+
+[33mcommit c7af3a72ea2e8dda1b2e20b90ceeafa7c929c194[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Tue Jan 27 16:36:46 2015 +0000
+
+    sch
+
+[33mcommit 878ee3f223bae6a4b19f769e75534bb5bb304b82[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Tue Jan 27 16:11:44 2015 +0000
+
+    sch
+
+[33mcommit 1671c7e414ee966ccf974fcba891e9b7d388d550[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Tue Jan 27 16:03:53 2015 +0000
+
+    scheduler
+
+[33mcommit 6535e8ab2ed34e4166b7d350ef1ee4fcc1d6aeb4[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Wed Jan 21 11:46:26 2015 +0000
+
+    scheduler - try looping products
+
+[33mcommit ae89c3f8da70a3eb6e7460876c422697322954f3[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Wed Jan 21 11:16:30 2015 +0000
+
+    added paypal express
+
+[33mcommit d833b53a30740a6474b998e633702ffd23119f8d[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Tue Jan 20 16:19:41 2015 +0000
+
+    auto capture payment_method
+
+[33mcommit 16a03005ac8b2d9410d998442ea2ab8f5d1e1231[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Tue Jan 20 16:03:02 2015 +0000
+
+    auto capture payment_method
+
+[33mcommit 7c0c8a2d176428bd065f2eae22bb36862a3bee0c[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Mon Jan 19 15:13:15 2015 +0000
+
+    fixed search, deleted 2nd index stored in products
+
+[33mcommit 67f544536418c243f6720e068d3fb6eac7ce327a[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Mon Jan 19 15:11:25 2015 +0000
+
+    fixed search, deleted 2nd index stored in products
+
+[33mcommit 0e25a8a8b7c315ed18047e10d0be308469a694f0[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Wed Jan 14 15:58:52 2015 +0000
+
+    datetime seperator
+
+[33mcommit 44ecc2159760339b161ef01961111510a8baea93[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Wed Jan 14 15:55:27 2015 +0000
+
+    datetime seperator
+
+[33mcommit 6b763eb1d8bb994afc66f8e501a4698c20beb633[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Tue Jan 13 20:53:23 2015 +0000
+
+    schedule edit
+
+[33mcommit 4b4c80abda2d823ba42c3d76515373c355dcf5c8[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Tue Jan 13 15:42:21 2015 +0000
+
+    sch
+
+[33mcommit 82df9b691a33a5293bad18fdd1122a9b371fd01d[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Tue Jan 13 15:36:47 2015 +0000
+
+    scheduler initializer
+
+[33mcommit 37fdea609c6528a549c083f0a2ae722d19edea4b[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Tue Jan 13 15:28:31 2015 +0000
+
+    scheduler
+
+[33mcommit 33988b422a0a90036c8cee1ee1254a827ab1fcbf[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Tue Jan 13 15:06:08 2015 +0000
+
+    scheduler
+
+[33mcommit 65f8a71fc4989ee36326dd2f7dfa8b536bbb2a4e[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Tue Jan 13 13:23:16 2015 +0000
+
+    initializer company in checkout, schedulaer firstname lastname
+
+[33mcommit 8b2612a759c7a421aec981f5da6ac9cdf3a16e06[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Tue Jan 13 12:39:08 2015 +0000
+
+    testing firstname scheduler xml, remove sidebar
+
+[33mcommit 2f6b547de8039c6856a5459208e3990faf714213[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Mon Jan 12 11:22:57 2015 +0000
+
+    sheduler
+
+[33mcommit 4605fbb45aad8039a72d3668643f7b1b26263648[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Mon Jan 12 11:05:43 2015 +0000
+
+    scheduler added @user
+
+[33mcommit f8d92946199d73d25933573f59b44f9cc871fec8[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Fri Jan 9 14:00:27 2015 +0000
+
+    initializer spree order backorder and shipping
+
+[33mcommit 9fa7b651978a3f51c7b89869ebdd36d04dd3e5d1[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Fri Jan 9 12:40:37 2015 +0000
+
+    finished nav bar dynamic
+
+[33mcommit e987ff2825dd4719be274ce705362daa65b878ee[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Wed Jan 7 12:15:38 2015 +0000
+
+    nav
+
+[33mcommit d49a1ecbf99f947f8a53708e50c03a85ce38f2b8[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Tue Jan 6 23:02:28 2015 +0000
+
+    nav
+
+[33mcommit 817c89ca49d5b2a62320b9b4e1cb479669d5a7fc[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Tue Jan 6 22:49:38 2015 +0000
+
+    nav bar edited taxons
+
+[33mcommit ceb70bb61234950e42373ec087308f8203639b5c[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Tue Jan 6 22:16:55 2015 +0000
+
+    fix issue with missing end
+
+[33mcommit 2fe786a4b4d211dd3755e6f904977bc6d6e11840[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Tue Jan 6 22:12:00 2015 +0000
+
+    added scheduler rake task
+
+[33mcommit 92a1a521ff1bf99cfd55bbe8402b8d463f19a811[m
+Merge: 055877b 31e0bec
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Tue Jan 6 22:03:57 2015 +0000
+
+    keep track of imported ids
+
+[33mcommit 31e0becdd5251c9b55bf33374f2932af7629e739[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Tue Jan 6 22:02:10 2015 +0000
+
+    changes to rake task to keep track of processed ids
+
+[33mcommit 8b86079720c8b8cdc9c348ca98abb4efb0356232[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Tue Jan 6 21:50:25 2015 +0000
+
+    changes to keep track of import
+
+[33mcommit 055877bfe58827c53632e87bca7bb0342ef6d293[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Fri Dec 12 15:05:48 2014 +0000
+
+    word doc
+
+[33mcommit f388e85ce88303ca059f24ea74275308f12beabd[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Wed Dec 10 10:18:30 2014 +0000
+
+    added nav code
+
+[33mcommit a91120493a4495ae00e56c00dae74959ba6236c3[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Wed Nov 19 22:14:46 2014 +0000
+
+    git ignore aws secret s3 uploader set up
+
+[33mcommit 8f4351023898b1440a88a5b9f856e868aa0d2204[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Wed Nov 19 20:42:23 2014 +0000
+
+    devise rake secret
+
+[33mcommit d21e29685eeb404bdbae310715dce557a0353047[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Tue Nov 18 22:29:38 2014 +0000
+
+    s3
+
+[33mcommit 01fc30649ce24cc9a64ab305ed5da2ef62f2c73b[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Tue Nov 18 21:09:19 2014 +0000
+
+    main nav delete shared
+
+[33mcommit 1f1288dccb773f3e35d709f1c8ce1fe43f286fdf[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Tue Nov 18 21:04:27 2014 +0000
+
+    carrierwave
+
+[33mcommit 5411a226ac342d07407a0de4bc80306aa2657ea5[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Mon Nov 17 16:11:11 2014 +0000
+
+    edit shared main nav bar
+
+[33mcommit 5e91512240225062135379c13fdf1b20269052d6[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Mon Nov 17 16:08:50 2014 +0000
+
+    added carrierwave and fog gems for AWS
+
+[33mcommit 61e9dee9eee6bff27f7ead3c700454fe9f8fe9c4[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Mon Nov 17 16:04:31 2014 +0000
+
+    added carrierwave and fog gems for AWS
+
+[33mcommit e20e94800aff42ee25c73d52c7fbaa61bd6d15ae[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Mon Nov 17 12:02:00 2014 +0000
+
+    push
+
+[33mcommit 077a063dca0e60b85b03fa6c17aeb6856caad1d8[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Mon Nov 17 11:48:44 2014 +0000
+
+    order xml
+
+[33mcommit 14349b4cb35d3a6be159ac7ca1f99e3f2db3b395[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Tue Nov 11 10:58:43 2014 +0000
+
+    back
+
+[33mcommit 7c4fb9f6965dfb06d285b410a6657d0e2361cf8f[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Wed Nov 5 17:02:33 2014 +0000
+
+    nav bar dynamic
+
+[33mcommit e6cf9c501ff8c5c9366e7b65e33eee98107befba[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Wed Nov 5 16:54:49 2014 +0000
+
+    nav bar dynamic
+
+[33mcommit e2abb0b50ee4368872c7f69b8cce8b3b8e53768b[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Wed Nov 5 16:52:56 2014 +0000
+
+    nav bar dynamic
+
+[33mcommit e259b76530c8bd707a4ed8efdc6b3b7b4211fdb5[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Wed Nov 5 16:50:09 2014 +0000
+
+    nav bar dynamic
+
+[33mcommit 12578685c80e63c5b7acd392fa12dde99d671f07[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Wed Nov 5 16:41:59 2014 +0000
+
+    nav bar dynamic
+
+[33mcommit 84ce65cc36e00c176af537e55a6a46f60e97c379[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Wed Nov 5 16:22:40 2014 +0000
+
+    nav bar dynamic
+
+[33mcommit 3b064c5ab3d0fe5673ff2bb82dddadfe5c32064b[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Wed Nov 5 16:18:09 2014 +0000
+
+    nav bar dynamic
+
+[33mcommit b6567eb34555b534ed85c6f42c1c7dac05f4c440[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Wed Nov 5 16:15:33 2014 +0000
+
+    nav bar dynamic
+
+[33mcommit ba82390fdfe6ff063b75899cdc80204dd2edb5a0[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Tue Nov 4 16:25:33 2014 +0000
+
+    xmlord
+
+[33mcommit c06154bcfa9303adbdc623e901a43b035b28e5ad[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Tue Nov 4 16:20:25 2014 +0000
+
+    production
+
+[33mcommit 88c0a7f6495f0f7bc958d096d912c5b2b51b333b[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Tue Nov 4 16:17:51 2014 +0000
+
+    production assets
+
+[33mcommit 9c029686cb7f6e9f3494354034cdc25e79028f18[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Mon Nov 3 15:57:43 2014 +0000
+
+    rm asset sync gem
+
+[33mcommit 74c838e86b3f75130f35a12ac6e6d3359ecd8cb4[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Mon Nov 3 15:52:19 2014 +0000
+
+    added 12factr gem
+
+[33mcommit af94cd967e1ff1b9fe9d1d2068843238ed8b9b86[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Thu Oct 2 15:32:03 2014 +0100
+
+    changed order to assets
+
+[33mcommit e116f234ca2c98114d66cce91a23196e97db1964[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Thu Oct 2 14:32:47 2014 +0100
+
+    rm countries from config init spree.rb
+
+[33mcommit e8bb04021f47354df08cbdb6f504a5293ba774ea[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Thu Oct 2 12:33:35 2014 +0100
+
+    removed 12factor
+
+[33mcommit 9eb0d1aabc40e4bc546003c89338198c2200e1f5[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Wed Oct 1 14:26:40 2014 +0100
+
+    pushed
+
+[33mcommit a2fe8b36c0a0d69fd38761cbd93d25396bf09f86[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Wed Oct 1 13:46:43 2014 +0100
+
+    set up s3
+
+[33mcommit 110218d6b80a8872f440b44b1843278bd2d79657[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Mon Sep 29 16:59:59 2014 +0100
+
+    installed gem aws
+
+[33mcommit 56704af525d25c5a85a16ab119de360109e848fd[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Mon Sep 29 12:08:58 2014 +0100
+
+    changed xmlorder to tmp dir
+
+[33mcommit 64a4c5097ccee5b43cb5b89bec9d867f1d41808e[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Fri Sep 19 15:05:44 2014 +0100
+
+    statemachine ignore application.rb
+
+[33mcommit 04ddb5edbe379024a948d161468dd633d7554d6b[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Thu Sep 18 14:08:55 2014 +0100
+
+    devise secret key
+
+[33mcommit 16006bd064052d649f4cdff82de7cbcbbb4e3478[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Thu Sep 18 14:07:04 2014 +0100
+
+    devise secret key
+
+[33mcommit a94f388481503c8641c42979a7c7bc50a5ccf867[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Thu Sep 18 12:16:15 2014 +0100
+
+    again
+
+[33mcommit 05fb06368103949227e9bc4da675469aecf75229[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Thu Sep 11 14:43:16 2014 +0100
+
+    store again
+
+[33mcommit 1c116044b700538f2e7a1b79bf77d0e19ab9d159[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Mon Sep 8 10:21:52 2014 +0100
+
+    dsstore
+
+[33mcommit bec9406d379a22121a40da7747f90ac0bd7910e4[m
+Author: Shane Kelly <shanekweb@icloud.com>
+Date:   Mon Sep 8 10:19:24 2014 +0100
+
+    dsstore
+
+[33mcommit ecd6033902481619843636decac2bd1d72bb665b[m
+Author: Shane Kelly <shanek6@gmail.com>
+Date:   Thu Sep 4 13:03:25 2014 +0100
+
+    rm orders xml
+
+[33mcommit a4dc11f26c1a4c55178bef160174c94abbca42ef[m
+Author: Shane Kelly <shanek6@gmail.com>
+Date:   Wed Sep 3 16:16:50 2014 +0100
+
+    latest
+
+[33mcommit 1a5a6c07779f2deb13b7a359824fea7b2fe309a5[m
+Author: Shane Kelly <shanek6@gmail.com>
+Date:   Thu Aug 28 16:44:35 2014 +0100
+
+    online xml export
+
+[33mcommit 248a00093d7a12247628b66a527ec795731bae7f[m
+Author: Shane Kelly <shanek6@gmail.com>
+Date:   Thu Aug 28 16:26:01 2014 +0100
+
+    added ireland default country checkout
+
+[33mcommit 5f375a9756b55de0f9345ff50f6e1a2a6855c233[m
+Author: Shane Kelly <shanek6@gmail.com>
+Date:   Wed Aug 27 11:52:47 2014 +0100
+
+    up
+
+[33mcommit 4202a935e6d78e88cd499737e6477de779e54425[m
+Author: Shane Kelly <shanek6@gmail.com>
+Date:   Mon Aug 25 16:57:46 2014 +0100
+
+    styled home page
+
+[33mcommit a63e0c03000833c8af79856e7110f2ad7548a573[m
+Author: Shane Kelly <shanek6@gmail.com>
+Date:   Mon Aug 25 16:26:45 2014 +0100
+
+    styled home page
+
+[33mcommit d5d37d5d8424e5039600fdd222d26b303851a6fa[m
+Author: Shane Kelly <shanek6@gmail.com>
+Date:   Fri Aug 22 15:13:35 2014 +0100
+
+    added columns latest and featured for other home groups
+
+[33mcommit d505af86981d880f17a08ecfd75310a1960610f5[m
+Author: Shane Kelly <shanek6@gmail.com>
+Date:   Fri Aug 22 13:12:57 2014 +0100
+
+    test if empty for admin products
+
+[33mcommit 6406e7b0c7fd36b19556ac48d73e95ed55be478e[m
+Author: Shane Kelly <shanek6@gmail.com>
+Date:   Fri Aug 22 13:08:53 2014 +0100
+
+    test if empty for admin products
+
+[33mcommit 69da80c85c910caff7249c84b8fb460cf6026860[m
+Author: Shane Kelly <shanek6@gmail.com>
+Date:   Fri Aug 22 13:07:12 2014 +0100
+
+    test if empty for admin products
+
+[33mcommit b32b7a3e493e627b84e14de5657c645617939e54[m
+Author: Shane Kelly <shanek6@gmail.com>
+Date:   Fri Aug 22 13:05:18 2014 +0100
+
+    added loops for admin and home section specials
+
+[33mcommit 62dbb77c6b2da05c039c7d60e2e914be296a9a05[m
+Author: Shane Kelly <shanek6@gmail.com>
+Date:   Fri Aug 22 13:00:15 2014 +0100
+
+    added loops for admin and home section specials
+
+[33mcommit ff65a574f293cc83d090f2ee10c44111347462cd[m
+Author: Shane Kelly <shanek6@gmail.com>
+Date:   Thu Aug 21 16:55:47 2014 +0100
+
+    working loop admin index special products
+
+[33mcommit bd4507ea439323a205d3d71c4d302316f9bee08f[m
+Author: Shane Kelly <shanek6@gmail.com>
+Date:   Thu Aug 21 10:02:33 2014 +0100
+
+    migration boolean special products home and admin special
+
+[33mcommit 63b9ac011fd364b84029193a3f0a358ef8c0533d[m
+Author: Shane Kelly <shanek6@gmail.com>
+Date:   Wed Aug 20 11:56:54 2014 +0100
+
+    latest
+
+[33mcommit 85c0f306696575f3d25f3331d483d91c83598412[m
+Author: Shane Kelly <shanek6@gmail.com>
+Date:   Mon Aug 18 12:24:27 2014 +0100
+
+    slider
+
+[33mcommit 588fa754aa9f152e42198ef6032385d6ccca337c[m
+Author: Shane Kelly <shanek6@gmail.com>
+Date:   Tue Aug 12 15:10:10 2014 +0100
+
+    added top menu
+
+[33mcommit b69a2d0d88f795ac2b3289a09b6aff475e3e1ba3[m
+Author: Shane Kelly <shanek6@gmail.com>
+Date:   Wed Aug 6 09:44:08 2014 +0100
+
+    deleted script/orders
+
+[33mcommit b9a068e9280b16953e5a36e9cc11723233d0246c[m
+Author: Shane Kelly <shanek6@gmail.com>
+Date:   Wed Jul 30 15:39:50 2014 +0100
+
+    price filter adjusted added scripts for xml export
+
+[33mcommit 213f4a8b0a8652fd82499ea1512fbfcd5f7c9e10[m
+Author: Shane Kelly <shanek6@gmail.com>
+Date:   Wed Jul 30 12:17:45 2014 +0100
+
+    added online assigntaxon.rake
+
+[33mcommit 359542c032a6204cc04cc0f055270477ba077190[m
+Author: Shane Kelly <shanek6@gmail.com>
+Date:   Wed Jul 30 12:16:11 2014 +0100
+
+    edited headers id_boss.csv
+
+[33mcommit 295ba92ef1bbd78439b5ca0e54d45d93f24464b5[m
+Author: Shane Kelly <shanek6@gmail.com>
+Date:   Wed Jul 30 12:14:22 2014 +0100
+
+    code to export pg query, heroku pg:psql and then query - \copy (SELECT id, boss_code FROM spree_products) TO id_boss.csv CSV DELIMITER ',' and then \q to exit
+
+[33mcommit 8312de47624b3591ec9cf288c727a336dbc15151[m
+Author: Shane Kelly <shanek6@gmail.com>
+Date:   Wed Jul 30 10:51:21 2014 +0100
+
+    added assigntaxon rake and csv
+
+[33mcommit f60c209518011c904e340e066a23287ce4137a45[m
+Author: Shane Kelly <shanek6@gmail.com>
+Date:   Wed Jul 30 10:35:44 2014 +0100
+
+    added rake tasks and taxon csvs for cat import
+
+[33mcommit 0338c253a5e89b29dc5ad231bdcf1fc3eb88e735[m
+Author: Shane Kelly <shanek6@gmail.com>
+Date:   Tue Jul 29 17:03:54 2014 +0100
+
+    added new import products file
+
+[33mcommit c06cbbd58d8289837d11b1473a65a3faf25328c5[m
+Author: Shane Kelly <shanek6@gmail.com>
+Date:   Tue Jul 29 14:21:05 2014 +0100
+
+    hide reviews top
+
+[33mcommit 95ad460416bd6c96a197e79488a24f7b4af552d8[m
+Author: Shane Kelly <shanek6@gmail.com>
+Date:   Tue Jul 29 12:05:39 2014 +0100
+
+    rm show in products, add to favorite not showing and description
+
+[33mcommit 6695cff5c5c9d57eebe8c0f44f3a73d8f445de90[m
+Author: Shane Kelly <shanek6@gmail.com>
+Date:   Tue Jul 29 11:58:17 2014 +0100
+
+    reviews and static content
+
+[33mcommit e384bab1be0d19d99e0f31d31ce53cdc26a7c0e0[m
+Author: Shane Kelly <shanek6@gmail.com>
+Date:   Fri Jul 25 15:03:25 2014 +0100
+
+    ordered products index ascend_by_master_price controller
+
+[33mcommit d0a87a7df74f1094c67a6833650e9eb4d72ce3c4[m
+Author: Shane Kelly <shanek6@gmail.com>
+Date:   Fri Jul 25 12:37:09 2014 +0100
+
+    added blank to admin section also, added style to clear every fifth product
+
+[33mcommit 1a94da665549864121d4790013063b2ae432501f[m
+Author: Shane Kelly <shanek6@gmail.com>
+Date:   Fri Jul 25 11:29:59 2014 +0100
+
+    added code to _products in shared || if image_name blank
+
+[33mcommit 91bc1ef49887e4d3ff017856d275ca216dba4a60[m
+Author: Shane Kelly <shanek6@gmail.com>
+Date:   Thu Jul 24 11:11:10 2014 +0100
+
+    removed require spree favourite products from vendor js and css files
+
+[33mcommit 77c0bb8df09ae08a0cf5d941b4b22e4512f294d5[m
+Author: Shane Kelly <shanek6@gmail.com>
+Date:   Thu Jul 24 11:08:55 2014 +0100
+
+    removed require spree favourite products from vendor js and css files
+
+[33mcommit 03500704b13529b85282e984b7983c1018cc82cd[m
+Author: Shane Kelly <shanek6@gmail.com>
+Date:   Thu Jul 24 11:06:42 2014 +0100
+
+    after copying views folder, removed old links in nav
+
+[33mcommit 39cbfc816b7fb3a6c57701aa511f28cefdd04d83[m
+Author: Shane Kelly <shanek6@gmail.com>
+Date:   Wed Jul 23 16:50:19 2014 +0100
+
+    added assets to vendor dir
+
+[33mcommit 39e8b014e46464d318f3e1af21b537a9a4f333b4[m
+Author: Shane Kelly <shanek6@gmail.com>
+Date:   Wed Jul 23 16:25:31 2014 +0100
+
+    imported csv and created rake task import
+
+[33mcommit 85546b93b97bac42cc92ebff4f6985acd3386b8d[m
+Author: Shane Kelly <shanek6@gmail.com>
+Date:   Wed Jul 23 15:41:28 2014 +0100
+
+    added migrations
+
+[33mcommit adcbee15f87a3b0e3713730a5590f4ebe05f80ea[m
+Author: Shane Kelly <shanek6@gmail.com>
+Date:   Wed Jul 23 14:32:50 2014 +0100
+
+    first
