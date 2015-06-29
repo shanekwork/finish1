@@ -38,13 +38,7 @@
     <% end %>
   </div>
 
-  <div class="four columns">
-        <%= f.field_container :catalogue_id do %>
-          <%= f.label :catalogue_id, Spree.t(:catalogue_id) %> <span class="required">*</span><br />
-          <%= f.text_field :catalogue_id %>
-          <%= f.error_message_on :catalogue_id %>
-        <% end %>
-      </div>
+  
 
   <div class="right four columns omega" data-hook="admin_product_form_right">
     <%= f.field_container :price do %>
