@@ -1,5 +1,7 @@
 Super::Application.routes.draw do
 
+  resources :companies
+
 get 'additional_pages/findme'
 
 #match '/contacts', to: 'contacts#new', via: 'get'
