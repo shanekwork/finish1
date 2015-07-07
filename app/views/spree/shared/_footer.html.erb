@@ -16,13 +16,13 @@
 		   
 		                  <li>
 		                     <i class="fa fa-building">&nbsp;</i>
-		                     <span>Premier Business Centre, 3013 Lake Drive Citywest Business Campus, Dublin 24</span>
+		                     <span><%= @c.name %></span>
 		                  </li>
 		   
 		                  <li>
 		                     <i class="fa fa-mobile">&nbsp;</i>
 		                     <span>
-		                     		<a href="tel:0035314361847">+353 1 4361847</a>
+		                     		<%= @c.phone %>
 		                     </span>
 		                  </li>
 		   
@@ -31,6 +31,41 @@
 		                     <span>
 		                        <a href="mailto:info@supportsolutions.ie">info@supportsolutions.ie</a>
 		                     </span>
+		                  </li>
+
+		                  <li>
+		                  <i class="fa fa-building">&nbsp;</i>
+		                  	<span>
+		                  		<%= @c.address2 %>
+		                  	</span>
+		                  </li>
+
+		                  <li>
+		                  <i class="fa fa-building">&nbsp;</i>
+		                  	<span>
+		                  		<%= @c.address3 %>
+		                  	</span>
+		                  </li>
+
+		                  <li>
+		                  <i class="fa fa-building">&nbsp;</i>
+		                  	<span>
+		                  		<%= @c.town %>
+		                  	</span>
+		                  </li>
+
+		                  <li>
+		                  <i class="fa fa-building">&nbsp;</i>
+		                  	<span>
+		                  		<%= @c.county %>
+		                  	</span>
+		                  </li>
+
+		                  <li>
+		                  <i class="fa fa-building">&nbsp;</i>
+		                  	<span>
+		                  		<%= @c.postcode %>
+		                  	</span>
 		                  </li>
 
 		               </ul>
@@ -71,16 +106,6 @@
 									</a>
 								</li>
 
-								<li>
-									<%= @c.name %><br>
-									<%= @c.address1 %><br>
-									<%= @c.address2 %><br>
-									<%= @c.address3 %><br>
-									<%= @c.town %><br>
-									<%= @c.county %><br>
-									<%= @c.postcode %><br>
-									<%= @c.phone %><br>
-								</li>
 
 							</ul>
 						</div>
