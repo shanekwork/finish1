@@ -89,26 +89,19 @@
 						<div class="social">
 							<ul>
 								<li>
-									<a href="https://www.facebook.com/office.products.software" target="_blank">
-										<img src="/assets/facebook-icon.png" onmouseout="this.src='/assets/facebook-icon.png'" onmouseover="this.src='/assets/facebook-iconHover.png'" alt="Facebook Icon">
-									</a>
+									<%= link_to image_tag('/assets/facebook-icon.png'), 'http://'+@c.facebook, :target => "_blank" %>
 								</li>
 
-								<li>	
-									<a href="https://twitter.com/Suptsolution" target="_blank">
-										<img src="/assets/twitter-icon.png" onmouseout="this.src='/assets/twitter-icon.png'" onmouseover="this.src='/assets/twitter-iconHover.png'" alt="Twitter Icon">
-									</a>
+								<li>
+									<%= link_to image_tag('/assets/twitter-icon.png'), 'http://'+@c.twitter, :target => "_blank" %>
 								</li>
 
-								<li>	
-									<a href="https://www.linkedin.com/company/support-solutions" target="_blank">
-										<img src="/assets/linkedin-icon.png" onmouseout="this.src='/assets/linkedin-icon.png'" onmouseover="this.src='/assets/linkedin-iconHover.png'" alt="LinkedIn Icon">
-									</a>
+								<li>
+									<%= link_to image_tag('/assets/linkedin-icon.png'), 'http://'+@c.linkedin, :target => "_blank" %>
 								</li>
-
-
 							</ul>
 						</div>
+						
 					</div>
 				</div>
 			</div><!--#top-footerContent-->
