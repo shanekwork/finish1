@@ -2,7 +2,7 @@
 development:
   adapter: postgresql
   encoding: unicode
-  database: super_development
+  database: finish1_development
   pool: 5
   host: localhost
   username:
@@ -11,7 +11,7 @@ development:
 test:
   adapter: postgresql
   encoding: unicode
-  database: super_test
+  database: finish1_test
   pool: 5
   host: localhost
   username:
@@ -20,7 +20,7 @@ test:
 production:
   adapter: postgresql
   encoding: unicode
-  database: super_production
+  database: finish1_production
   pool: 5
   username:
   password:
