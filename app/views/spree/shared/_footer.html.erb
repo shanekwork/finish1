@@ -16,15 +16,13 @@
 		   
 		                  <li>
 		                     <i class="fa fa-building">&nbsp;</i>
-		                     <span>
-		                     	
-		                     </span>
+		                     <span><%= @c.name %></span>
 		                  </li>
 		   
 		                  <li>
 		                     <i class="fa fa-mobile">&nbsp;</i>
 		                     <span>
-		                     		
+		                     		<%= @c.phone %>
 		                     </span>
 		                  </li>
 		   
@@ -38,35 +36,35 @@
 		                  <li>
 		                  <i class="fa fa-building">&nbsp;</i>
 		                  	<span>
-		                  		
+		                  		<%= @c.address2 %>
 		                  	</span>
 		                  </li>
 
 		                  <li>
 		                  <i class="fa fa-building">&nbsp;</i>
 		                  	<span>
-		                  		
+		                  		<%= @c.address3 %>
 		                  	</span>
 		                  </li>
 
 		                  <li>
 		                  <i class="fa fa-building">&nbsp;</i>
 		                  	<span>
-		                  		
+		                  		<%= @c.town %>
 		                  	</span>
 		                  </li>
 
 		                  <li>
 		                  <i class="fa fa-building">&nbsp;</i>
 		                  	<span>
-		                  		
+		                  		<%= @c.county %>
 		                  	</span>
 		                  </li>
 
 		                  <li>
 		                  <i class="fa fa-building">&nbsp;</i>
 		                  	<span>
-		                  		
+		                  		<%= @c.postcode %>
 		                  	</span>
 		                  </li>
 
@@ -88,7 +86,21 @@
 							</fieldset>
 						</form>
 
-		
+						<div class="social">
+							<ul>
+								<li>
+									<%= link_to image_tag('/assets/facebook-icon.png'), 'http://'+@c.facebook, :target => "_blank" %>
+								</li>
+
+								<li>
+									<%= link_to image_tag('/assets/twitter-icon.png'), 'http://'+@c.twitter, :target => "_blank" %>
+								</li>
+
+								<li>
+									<%= link_to image_tag('/assets/linkedin-icon.png'), 'http://'+@c.linkedin, :target => "_blank" %>
+								</li>
+							</ul>
+						</div>
 						
 					</div>
 				</div>
