@@ -6,6 +6,9 @@ class ApplicationController < ActionController::Base
 
   def all_taxonomies
   	@taxonomy = Taxonomy.all
+  	@user = Spree::User.first
+      company = Company.where(user_id: 1)
+      @c = @user.company 
   end
 
 end
