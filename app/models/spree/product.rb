@@ -23,7 +23,7 @@ module Spree
     extend FriendlyId
     friendly_id :name, use: :slugged
 
-    
+    has_one :company
     acts_as_paranoid
     has_many :product_option_types, dependent: :destroy, inverse_of: :product
     has_many :option_types, through: :product_option_types
