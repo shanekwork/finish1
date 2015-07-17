@@ -1,6 +1,14 @@
 module Spree
   class StoreController < Spree::BaseController
     include Spree::Core::ControllerHelpers::Order
+    before_filter :check_stuff
+
+
+    def check_stuff
+      @user = Spree::User.first
+      company = Company.where(user_id: 1)
+      @c = @user.company 
+    end
 
     def unauthorized
       render 'spree/shared/unauthorized', :layout => Spree::Config[:layout], :status => 401
