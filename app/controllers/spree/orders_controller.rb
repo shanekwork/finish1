@@ -14,6 +14,9 @@ module Spree
 
     def show
       @order = Order.find_by_number!(params[:id])
+      @user = Spree::User.first
+      company = Company.where(user_id: 1)
+      @c = @user.company 
     end
 
     def update
