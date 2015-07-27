@@ -51,5 +51,15 @@
   <%= @company.linkedin %>
 </p>
 
+<p>
+  <strong>Email:</strong>
+  <%= @company.email %>
+</p>
+
+<p>
+  <strong>Mailer:</strong>
+  <%= @company.mailer %>
+</p>
+
 <%= link_to 'Edit Address', edit_company_path(@company) %> |
 <%= link_to 'Back to Admin Menu', '/admin/general_settings/edit' %>
