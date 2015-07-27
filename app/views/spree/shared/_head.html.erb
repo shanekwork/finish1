@@ -18,7 +18,11 @@
 <!--[if lt IE 9]>
   <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6/html5shiv.min.js"></script>
 <![endif]-->
-
+<%
+  @trader = Spree::User.first
+  company = Company.where(user_id: 1)
+  @c = @trader.company
+%>
 <script>
 	$(document).ready(function(){
 		/* Add class just to home page */
@@ -50,7 +54,7 @@
 	                    'text': 'You have received a request from mysterious-ravine site.\n\n' + emailNewsletter + ' wants request a newsletter',
 	                    'to': new Array (
 	                    {
-	                        'email': '<% @c.email %>',
+	                        'email': '<%= @c.email.html_safe %>',
 	                        'name': 'mysterious-ravine',
 	                        'type': 'to'
 	                    })
