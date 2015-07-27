@@ -12,7 +12,12 @@
   </head>
   <body class="<%= body_class %>" id="<%= @body_id || 'default' %>" data-hook="body">
 
-    
+<%
+  @trader = Spree::User.first
+  company = Company.where(user_id: 1)
+  @c = @trader.company
+%>
+
       <%= render :partial => 'spree/shared/header' %>
   
 

@@ -19,9 +19,6 @@ class Spree::UserRegistrationsController < Devise::RegistrationsController
   def new
     super
     @user = resource
-    @trader = Spree::User.first
-    company = Company.where(user_id: 1)
-    @c = @trader.company 
   end
 
   # POST /resource/sign_up
