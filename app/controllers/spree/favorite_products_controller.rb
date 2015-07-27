@@ -6,9 +6,9 @@ module Spree
 
     def index
       @favorite_products = spree_current_user.favorite_products.page(params[:page]).per(Spree::Config.favorite_products_per_page)
-      @user = Spree::User.first
+      @trader = Spree::User.first
       company = Company.where(user_id: 1)
-      @c = @user.company 
+      @c = @trader.company 
     end
 
     def create
