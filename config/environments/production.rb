@@ -3,7 +3,7 @@ Super::Application.configure do
 
   # Code is not reloaded between requests.
   config.cache_classes = true
-
+  config.force_ssl = false
   #config.action_controller.asset_host = "http://superbots.s3.amazonaws.com"
 
   # Eager load code on boot. This eager loads most of Rails and
