@@ -422,22 +422,22 @@ body{
 								    background:#191919 url("/assets/favourite-iconHover.png") no-repeat 2em 50%;
 									}
 							nav#top-nav-bar UL LI.account A{
-							    background:#19b894 url("/assets/account-icon.png") no-repeat 2em 50%;
+							    background:#444 url("/assets/account-icon.png") no-repeat 2em 50%;
 								}
 								nav#top-nav-bar UL LI.account A:hover{
-								    background:#191919 url("/assets/account-iconHover.png") no-repeat 2em 50%;
+								    background:#444 url("/assets/account-iconHover.png") no-repeat 2em 50%;
 									}
 							nav#top-nav-bar UL LI.logIn A{
-							    background:#19b894 url("/assets/login-icon.png") no-repeat 2em 50%;
+							    background:#444 url("/assets/login-icon.png") no-repeat 2em 50%;
 								}
 								nav#top-nav-bar UL LI.logIn A:hover{
-								    background:#191919 url("/assets/login-iconHover.png") no-repeat 2em 50%;
+								    background:#444 url("/assets/login-iconHover.png") no-repeat 2em 50%;
 									}
 							nav#top-nav-bar UL LI.logOut A{
-							    background:#19b894 url("/assets/logout-icon.png") no-repeat 2em 50%;
+							    background:#444 url("/assets/logout-icon.png") no-repeat 2em 50%;
 								}
 								nav#top-nav-bar UL LI.logOut A:hover{
-								    background:#191919 url("/assets/logout-iconHover.png") no-repeat 2em 50%;
+								    background:#444 url("/assets/logout-iconHover.png") no-repeat 2em 50%;
 									}
 						nav#top-nav-bar UL LI#search-bar{
 							float:right;
