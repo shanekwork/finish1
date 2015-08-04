@@ -16,6 +16,10 @@
  *= require spree/frontend/spree_paypal_express
 */
 
+#main-menu {
+    background: #4681d3;
+}
+
 .threex3 {
 	color: #333;
 }
