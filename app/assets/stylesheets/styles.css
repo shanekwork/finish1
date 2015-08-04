@@ -1035,10 +1035,10 @@ body{
 											width:100%;
 											}
 							#reviews A.button{
-								background:#19b794 url("/assets/write-icon.png") no-repeat 1.8em center;
+								background:#444 url("/assets/write-icon.png") no-repeat 1.8em center;
 								}
 								#reviews A.button:hover{
-									background:#191919 url("/assets/write-iconHover.png") no-repeat 1.8em center;
+									background:#444 url("/assets/write-iconHover.png") no-repeat 1.8em center;
 									}
 						#content-new-review{
 							float:left;
