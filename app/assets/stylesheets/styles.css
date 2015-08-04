@@ -630,7 +630,7 @@ body{
 											padding:0.5em 2.1em 0.5em 0.5em!important;
 											}
 										#main-menu NAV UL LI UL LI:hover{
-											background:#19b794 url("sel-menu-arrow.png") no-repeat scroll 14.4em center!important!important;
+											background:#444 url("sel-menu-arrow.png") no-repeat scroll 14.4em center!important!important;
 										    padding:0 0.8em 0 0 !important;
 										    width:95%;
 											}
@@ -639,7 +639,7 @@ body{
 											}
 											#main-menu NAV UL LI UL LI:hover A,
 											#main-menu NAV UL LI UL LI:first-child A:hover{
-												background:#19b794 url("sel-menu-arrow.png") no-repeat scroll 16em center!important;
+												background:#444 url("sel-menu-arrow.png") no-repeat scroll 16em center!important;
 											    color:#ffffff!important;
 											    padding:0.5em 2.1em 0.5em 0.5em!important;
 											    width:85.5%;
@@ -674,7 +674,7 @@ body{
 														#main-menu NAV UL LI UL LI:hover UL LI A:hover,
 														#main-menu NAV UL LI UL LI UL LI A:hover,
 														#main-menu NAV UL:nth-last-child(-n+3) LI UL LI:nth-last-child(-n+3) UL LI A:hover{
-															background:#19b794!important;
+															background:#444!important;
 															color:#ffffff!important;
 															}
 						#main-menu NAV UL LI:nth-last-child(-n+3) UL{
@@ -696,7 +696,7 @@ body{
 									width:80.3%;
 									}
 								#main-menu NAV UL LI:nth-last-child(-n+3) UL LI:hover A{
-									background:#19b794 url("sel-menu-arrow-left.png") no-repeat 1em center!important;
+									background:#444 url("sel-menu-arrow-left.png") no-repeat 1em center!important;
 									padding:0.5em 0.5em 0.5em 2.1em !important;
     								width:80.3%;
 									}
@@ -718,7 +718,7 @@ body{
 											}
 										#main-menu NAV UL LI:nth-last-child(-n+3) UL LI:hover UL LI:hover A:hover,
 										#main-menu NAV UL LI:nth-last-child(-n+3) UL LI:first-child:hover UL LI:hover A:hover{
-											background:#19b794!important;
+											background:#444!important;
 											width:95%;
 											}
 			#wrapper .container{
