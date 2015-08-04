@@ -412,7 +412,7 @@ body{
 								}
 								nav#top-nav-bar UL LI A:hover,
 								nav#top-nav-bar UL LI#search-bar INPUT[type="submit"]:hover{
-								    background:#1a1a1a;
+								    background:#444;
 								    color:#19b794!important;
 									}
 							nav#top-nav-bar UL LI.favProds A{
