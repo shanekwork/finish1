@@ -1706,7 +1706,7 @@ body{
 								font-size:1em;
 								}
 						#cart-detail TR.adjustment TD:last-child,
-						#cart-detail TR.total-price TD:last-child{
+						#cart-detail TR.total-price TD:last-child(-1){
 							text-align:center;
 							}
 				#footer{
