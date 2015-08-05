@@ -1699,7 +1699,7 @@ body{
 						background:#19b794;
 						}
 						#cart-detail TR.cart-subtotal TD,
-						#cart-detail TR.total-price TD:nth-child(1){
+						#cart-detail TR.total-price TD:nth-child(n+1){
 							text-align:right;
 							}
 							#cart-detail TR.cart-subtotal TD H5,
