@@ -557,7 +557,7 @@ body{
 						}
 						#main-menu NAV UL LI{
 						    float:left;
-						    margin:0 0 0 1.56em;
+						    margin:0 0 0 1.7em;
 						    padding:3.66em 0;
 						    width:auto;
 							}
@@ -569,32 +569,23 @@ body{
 							    float:left;
 							    font-family:'Roboto', sans-serif;
 							    font-weight:normal;
-							    font-size:1em!important;
+							    font-size:1.05em!important;
 							    padding:0;
 							    width:auto;
 								}
-								#main-menu NAV UL LI A{
-									color:#ffffff!important;
-								    float:left;
-								    font-family:'Roboto', sans-serif;
-								    font-weight:normal;
-								    font-size:1em!important;
-								    padding:0 0.89em 0 0;
-								    width:auto;
+								#main-menu NAV UL LI:first-child A{
+								    padding:0!important;
 									}
-							#main-menu NAV UL LI:first-child A{
-							    padding:0!important;
-								}
-								#main-menu NAV UL LI A.selected,
-								#main-menu NAV UL LI A:hover{
-									color:#19b794!important;
-									}
+									#main-menu NAV UL LI A.selected,
 									#main-menu NAV UL LI A:hover{
-										background:transparent url("/assets/sel-down-menu-arrow.png") no-repeat right 0.35em!important;
+										color:#19b794!important;
 										}
-									#main-menu NAV UL LI:first-child A:hover{
-										background:none!important;
-										}
+										#main-menu NAV UL LI A:hover{
+											background:transparent url("/assets/sel-down-menu-arrow.png") no-repeat right 0.35em!important;
+											}
+										#main-menu NAV UL LI:first-child A:hover{
+											background:none!important;
+											}
 							#main-menu NAV UL LI UL{
 								background:#ffffff;
 								border:none;
