@@ -1705,7 +1705,8 @@ body{
 							#cart-detail TR.adjustment H5{
 								font-size:1em;
 								}
-						#cart-detail TR.adjustment TD:last-child{
+						#cart-detail TR.adjustment TD:last-child,
+						#cart-detail TR.total-price TD:last-child{
 							text-align:center;
 							}
 				#footer{
