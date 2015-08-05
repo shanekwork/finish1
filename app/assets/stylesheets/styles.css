@@ -537,6 +537,7 @@ body{
 						}
 						#main-menu FIGURE A IMG{
 						    float:left;
+						    max-height:6.15em;
 						    max-width:14.2em;
 						    padding:0;
 						    width:auto!important;
