@@ -471,7 +471,7 @@ body{
 				#link-to-cart{
 					float:left;
 					margin:0 0 0 3.5em;
-					width:18.3%;
+					width:17.3%;
 					}
 					#link-to-cart A{
 						background:transparent url("/assets/cart.png") no-repeat left top;
@@ -491,7 +491,7 @@ body{
 				#header .phone{
 					float:left;
 					margin:0 0 0 1.8em;
-					width:17%;
+					width:18%;
 					}
 					#header .phone IMG{
 						float:left;
@@ -608,9 +608,9 @@ body{
 									}
 									#main-menu NAV UL LI UL LI A,
 									#main-menu NAV UL LI UL LI:first-child A{
-										background:transparent url("menu-arrow.png") no-repeat 16em center;
+										background:transparent url("menu-arrow.png") no-repeat 15em center;
 										color:#5b5b5b!important;
-										font-size:0.9em!important;
+										font-size:1em!important;
 										line-height:1.2em;
 									    padding:0.5em 3em 0.5em 0.5em !important;
 									    width:80%;
@@ -631,7 +631,7 @@ body{
 											}
 											#main-menu NAV UL LI UL LI:hover A,
 											#main-menu NAV UL LI UL LI:first-child A:hover{
-												background:#444 url("sel-menu-arrow.png") no-repeat scroll 16em center!important;
+												background:#444 url("sel-menu-arrow.png") no-repeat scroll 15em center!important;
 											    color:#ffffff!important;
 											    padding:0.5em 2.1em 0.5em 0.5em!important;
 											    width:85.5%;
