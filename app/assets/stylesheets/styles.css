@@ -570,7 +570,7 @@ body{
 							    font-family:'Roboto', sans-serif;
 							    font-weight:normal;
 							    font-size:1.05em!important;
-							    padding:0;
+							    padding:0 0.89em 0 0;
 							    width:auto;
 								}
 								#main-menu NAV UL LI:first-child A{
@@ -682,7 +682,7 @@ body{
 								}
 								#main-menu NAV UL LI:nth-last-child(-n+3) UL LI A{
 									background:transparent url("menu-arrow-left.png") no-repeat 1em center;
-									font-size:0.9em!important;
+									font-size:1em!important;
 									padding:0.5em 0.5em 0.5em 2.1em!important;
 									text-align:right;
 									width:80.3%;
