@@ -557,7 +557,7 @@ body{
 						}
 						#main-menu NAV UL LI{
 						    float:left;
-						    margin:0 0 0 1.15em;
+						    margin:0 0 0 1.56em;
 						    padding:3.66em 0;
 						    width:auto;
 							}
@@ -569,7 +569,7 @@ body{
 							    float:left;
 							    font-family:'Roboto', sans-serif;
 							    font-weight:normal;
-							    font-size:1.05em!important;
+							    font-size:1em!important;
 							    padding:0 0.89em 0 0;
 							    width:auto;
 								}
@@ -610,7 +610,7 @@ body{
 									#main-menu NAV UL LI UL LI:first-child A{
 										background:transparent url("menu-arrow.png") no-repeat 15em center;
 										color:#5b5b5b!important;
-										font-size:1em!important;
+										font-size:0.9em!important;
 										line-height:1.2em;
 									    padding:0.5em 3em 0.5em 0.5em !important;
 									    width:80%;
