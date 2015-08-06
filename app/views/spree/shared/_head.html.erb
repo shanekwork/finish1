@@ -110,6 +110,16 @@
 		if ($("#slicknav_menu").css("display") == "block"){
 		    $("html").addClass("js");
 		}
+
+		/* Select LI parent when secondary option is drop drown in the main menu */
+		$("nav#main-menu-label ul li").each(function(){
+			if($("nav#main-menu-label ul li ul").css("display") =="block"){
+				if(!$(this).parent().hasClass("active")){
+					$("li.active").removeClass("active");
+					$(this).parent().addClass("active");
+				}
+			}
+		});
 	});
 </script>
 
