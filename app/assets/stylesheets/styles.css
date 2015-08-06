@@ -581,7 +581,7 @@ body{
 										color:#19b794!important;
 										}
 										#main-menu NAV UL LI A:hover{
-											background:transparent url("/assets/sel-down-menu-arrow.png") no-repeat right 0.35em!important;
+											background:transparent url("/assets/sel-down-menu-arrow.png") no-repeat right 0.45em!important;
 											}
 										#main-menu NAV UL LI:first-child A:hover{
 											background:none!important;
