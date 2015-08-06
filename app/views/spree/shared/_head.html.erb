@@ -100,9 +100,9 @@
 		$("#main-nav-bar li:has(> ul)").addClass("main-nav-bar-child");
 
 		// Add down arrow only to menu items with submenus
-	    $("#main-nav-bar > li:has('ul')").each(function() {
-	        $(this).find("a:first").css("background", "transparent url('/assets/down-menu-arrow.png') no-repeat right 0.45em");
-	    });
+	    //$("#main-nav-bar > li:has('ul')").each(function() {
+	      //  $(this).find("a:first").css("background", "transparent url('/assets/down-menu-arrow.png') no-repeat right 0.45em");
+	    //});
 
 	    /* Hide main menu for mobile devices */
 		$("nav#main-menu-label").slicknav();
@@ -112,7 +112,7 @@
 		}
 
 		/* Select LI parent when secondary option is drop drown in the main menu */
-		$("nav#main-menu-label > ul > li").hover(
+		$("nav#main-menu-label > ul li").hover(
 			function(){
 				$('ul', this).stop(true, true).slideDown('fast');
 				$('a',this).first().css({"color":"#19b794!important"});
