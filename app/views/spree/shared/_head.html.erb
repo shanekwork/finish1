@@ -112,14 +112,17 @@
 		}
 
 		/* Select LI parent when secondary option is drop drown in the main menu */
-		$("nav#main-menu-label ul li").each(function(){
-			if($("nav#main-menu-label ul li ul").css("display") =="block"){
-				if(!$(this).parent().hasClass("active")){
-					$("li.active").removeClass("active");
-					$(this).parent().addClass("active");
-				}
+		$("nav#main-menu-label > ul > li").hover(
+			function(){
+				$('ul', this).stop(true, true).slideDown('fast');
+				$('a',this).first().css({"color":"#19b794!important"});
+			},
+			function() {
+
+				$('ul', this).slideUp('fast');
+	        	$('a',this).first().css({"color":"#ffffff"});
 			}
-		});
+		);
 	});
 </script>
 
