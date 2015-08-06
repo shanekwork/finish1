@@ -1882,10 +1882,14 @@ body{
 		width:19.85em;
 		}
 		nav#top-nav-bar UL LI#search-bar INPUT[type="submit"]{
-		  padding:0.95em 1.15em 0.9em 1.15em!important;
+		  	padding:0.95em 1.15em 0.9em 1.15em!important;
+		  	width:16.3em;
 			}
 	#content #checkout .row .columns FORM .columns.omega{
 	    min-height:53.8em;
+		}
+	#content UL#products LI{
+		width:18.7%;
 		}
 }
 
