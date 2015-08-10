@@ -1892,6 +1892,9 @@ body{
 	#content UL#products LI{
 		width:18.7%;
 		}
+	#tabs .product{
+		margin:0 0.7em 1.9em 0.7em;
+		}
 }
 
 /* IE 8 - IE 9 */
