@@ -73,6 +73,7 @@ UL{
 		float:left;
 		font-size:0.95em;
 		line-height:1.2em;
+		list-style:none;
 		margin:0 0 0.8em 0;
 		padding:0;
 		width:100%;
@@ -683,10 +684,16 @@ body{
 							    width:34px;
 								}
 				#link-to-cart{
+<<<<<<< HEAD
 					border:1px solid #e8e8e9;
 					float:right;
 					margin:0 0 0 1em;
 					width:auto;
+=======
+					float:left;
+					margin:0 0 0 3.5em;
+					width:17.3%;
+>>>>>>> origin/master
 					}
 					#link-to-cart A{
 						background:#fafafa url("/assets/cart.png") no-repeat left top;
@@ -727,10 +734,15 @@ body{
 				#main-menu NAV UL{
 					border:none;
 					float:left;
+<<<<<<< HEAD
 					font-weight:normal;
 					margin:0;
 					padding:0;
 					width:auto;
+=======
+					margin:0 0 0 1.8em;
+					width:18%;
+>>>>>>> origin/master
 					}
 					#main-menu NAV UL LI{
 						float:left;
@@ -753,17 +765,65 @@ body{
 							transition:all 0.4s ease 0s;
 							width:auto;
 							}
+<<<<<<< HEAD
 						#main-menu NAV UL LI:first-child A:after{
 							content:""!important;
 							}
 						#main-menu NAV UL LI:first-child A{
 							padding:0!important;
+=======
+							#header .phone .inside A:hover{
+								color:#444;
+								}
+			#main-menu{
+				background:#444;
+				float:left;
+				padding:0;
+				width:100%;
+				}				
+				#main-menu FIGURE{
+				    float:left;
+				    margin:0;
+				    padding:0.95em 0;
+				    width:auto;
+					}
+					#main-menu FIGURE A{
+					    float:left;
+					    width:auto;
+						}
+						#main-menu FIGURE A IMG{
+						    float:left;
+						    max-height:6.15em;
+						    max-width:14.2em;
+						    padding:0;
+						    width:auto!important;
+							}
+				#main-menu NAV{
+				    float:right;
+				    margin:0 0 0 4.2em;
+				    width:77%;
+					}
+					#main-menu NAV UL{
+						border:none;
+					    float:left;
+					    font-weight:normal;
+					    margin:0;
+					    padding:0;
+					    width:100%;
+						}
+						#main-menu NAV UL LI{
+						    float:left;
+						    margin:0 0 0 1.56em;
+						    padding:3.66em 0;
+						    width:auto;
+>>>>>>> origin/master
 							}
 						#main-menu NAV UL LI A:after{
 							content:"\f0d7";
 							font-family:"FontAwesome";
 							margin:0 0 0 0.8em;
 							}
+<<<<<<< HEAD
 							#main-menu NAV UL LI A.selected,
 							#main-menu NAV UL LI:hover A{
 								color:#ec4445!important;
@@ -791,6 +851,30 @@ body{
 							transform:perspective(600px) rotateX(0deg);
 						    transition:transform 0.5s ease 0s, opacity 0.2s ease 0s, max-height 0s step-end 0s, max-width 0s step-end 0s, padding 0s step-end 0s;
 							}
+=======
+							#main-menu NAV UL LI A{
+								color:#ffffff!important;
+							    float:left;
+							    font-family:'Roboto', sans-serif;
+							    font-weight:normal;
+							    font-size:1em!important;
+							    padding:0 0.89em 0 0;
+							    width:auto;
+								}
+								#main-menu NAV UL LI:first-child A{
+								    padding:0!important;
+									}
+									#main-menu NAV UL LI A.selected,
+									#main-menu NAV UL LI A:hover{
+										color:#19b794!important;
+										}
+										#main-menu NAV UL LI A:hover{
+											background:transparent url("/assets/sel-down-menu-arrow.png") no-repeat right 0.45em!important;
+											}
+										#main-menu NAV UL LI:first-child A:hover{
+											background:none!important;
+											}
+>>>>>>> origin/master
 							#main-menu NAV UL LI UL{
 								background:#ffffff;
 								border:none;
@@ -810,6 +894,7 @@ body{
 									padding:0;
 									width:21.28%;
 									}
+<<<<<<< HEAD
 									#main-menu NAV UL LI:hover UL LI A,
 									#main-menu NAV UL LI UL LI A{
 										border-bottom:1px solid #f2f2f2;
@@ -817,6 +902,13 @@ body{
 										font-family:"Open Sans",sans-serif;
 										font-size:0.77em;
 										font-weight:bold;
+=======
+									#main-menu NAV UL LI UL LI A,
+									#main-menu NAV UL LI UL LI:first-child A{
+										background:transparent url("menu-arrow.png") no-repeat 15em center;
+										color:#5b5b5b!important;
+										font-size:0.9em!important;
+>>>>>>> origin/master
 										line-height:1.2em;
 										margin:0 0 2em 0!important;
 										min-height:2.5em;
@@ -841,10 +933,19 @@ body{
 											top:0;
 											width:100%;
 											}
+<<<<<<< HEAD
 											#main-menu NAV UL LI UL LI UL LI{
 												margin:0!important;
 												padding:0;
 												width:100%;
+=======
+											#main-menu NAV UL LI UL LI:hover A,
+											#main-menu NAV UL LI UL LI:first-child A:hover{
+												background:#444 url("sel-menu-arrow.png") no-repeat scroll 15em center!important;
+											    color:#ffffff!important;
+											    padding:0.5em 2.1em 0.5em 0.5em!important;
+											    width:85.5%;
+>>>>>>> origin/master
 												}
 												#main-menu NAV UL LI UL LI UL LI A,
 												#main-menu NAV UL LI:hover UL LI UL LI A{
@@ -864,6 +965,7 @@ body{
 													#main-menu NAV UL LI:hover UL LI UL LI A:hover{
 														color:#ec4445!important;
 														}
+<<<<<<< HEAD
 		#wrapper .container{
 			overflow:hidden;
 			}			
@@ -873,6 +975,62 @@ body{
 				float:left;
 				padding:0;
 				width:100%;
+=======
+														#main-menu NAV UL LI UL LI:hover UL LI A:hover,
+														#main-menu NAV UL LI UL LI UL LI A:hover,
+														#main-menu NAV UL:nth-last-child(-n+3) LI UL LI:nth-last-child(-n+3) UL LI A:hover{
+															background:#444!important;
+															color:#ffffff!important;
+															}
+						#main-menu NAV UL LI:nth-last-child(-n+3) UL{
+							left:inherit;
+							padding:2.2em 0.95em 2.2em 0;
+							position:absolute;
+							right:0;
+							}
+							#main-menu NAV UL LI:nth-last-child(-n+3) UL LI,
+							#main-menu NAV UL LI:nth-last-child(-n+3) UL LI:hover{
+								padding:0 0 0 0.95em!important;
+								width:100%;
+								}
+								#main-menu NAV UL LI:nth-last-child(-n+3) UL LI A{
+									background:transparent url("menu-arrow-left.png") no-repeat 1em center;
+									font-size:1em!important;
+									padding:0.5em 0.5em 0.5em 2.1em!important;
+									text-align:right;
+									width:80.3%;
+									}
+								#main-menu NAV UL LI:nth-last-child(-n+3) UL LI:hover A{
+									background:#444 url("sel-menu-arrow-left.png") no-repeat 1em center!important;
+									padding:0.5em 0.5em 0.5em 2.1em !important;
+    								width:80.3%;
+									}
+								#main-menu NAV UL LI:nth-last-child(-n+3) UL LI UL{
+									left:-17.5em;
+									}								
+									#main-menu NAV UL LI:nth-last-child(-n+3) UL LI UL LI,
+									#main-menu NAV UL LI:nth-last-child(-n+3) UL LI:hover UL LI{
+										padding:0!important;
+										width:100%;
+										}
+										#main-menu NAV UL LI:nth-last-child(-n+3) UL LI UL LI A,
+										#main-menu NAV UL LI:nth-last-child(-n+3) UL LI:hover UL LI A{
+											background:none!important;
+										    font-size:1em!important;
+										    padding:0.5em 0.4em!important;
+										    text-align:right;
+										    width:95%;
+											}
+										#main-menu NAV UL LI:nth-last-child(-n+3) UL LI:hover UL LI:hover A:hover,
+										#main-menu NAV UL LI:nth-last-child(-n+3) UL LI:first-child:hover UL LI:hover A:hover{
+											background:#444!important;
+											width:95%;
+											}
+			#wrapper .container{
+				background:#ffffff;
+				box-shadow:0 15px 18px #a6a6a6;
+				overflow:hidden;
+>>>>>>> origin/master
 				}
 			#content{
 				margin:0;
@@ -2532,6 +2690,7 @@ body{
 					#content .search-results #products{
 						margin:0;
 						}
+<<<<<<< HEAD
 			#page_content .firstSectionAboutUs{
 			    float:left;
     			width:100%;
@@ -2559,6 +2718,49 @@ body{
 					font-size:1em;
 					margin:0;
 					position:relative;
+=======
+						#content .search-results H6{
+							border:none;
+						    color:#191919;
+						    font-size:1.5em;
+						    line-height:1.4em;
+						    margin:0 0 1em 0;
+							}
+						#content .search-results #products{
+							margin:0;
+							}
+					#cart-detail TR.cart-subtotal{
+						background:#19b794;
+						}
+						#cart-detail TR.cart-subtotal TD,
+						#cart-detail TR.total-price TD:nth-child(n+1){
+							text-align:right;
+							}
+							#cart-detail TR.cart-subtotal TD H5,
+							#cart-detail TR.adjustment H5{
+								font-size:1em;
+								}
+						#cart-detail TR.adjustment TD:last-child{
+							text-align:center;
+							}
+					#registration #existing-customer FORM,
+					#registration #guest_checkout FORM{
+						min-height:15em;
+						width:85.5%;
+						}
+						#registration #existing-customer FORM INPUT[type="checkbox"]{
+							margin:0.25em 0.5em 0 33.3%;
+							}
+						#registration #existing-customer FORM LABEL[for="spree_user_remember_me"]{
+							margin:0;
+							width:auto;
+							}
+				#footer{
+					border:none!important;
+				    color:#191919;
+				    margin:0;
+				    padding:0!important;
+>>>>>>> origin/master
 					}
 					#footer A{
 						border-bottom:1px solid #5b5b5b;
@@ -2893,8 +3095,23 @@ body{
 	#content .page-title{
 		z-index:-1;
 		}
+<<<<<<< HEAD
 	FORM#contact_newsletter FIELDSET DIV.button INPUT#submit{
 		height:33px;
+=======
+		nav#top-nav-bar UL LI#search-bar INPUT[type="submit"]{
+		  	padding:0.95em 1.15em 0.9em 1.15em!important;
+		  	width:16.3em;
+			}
+	#content #checkout .row .columns FORM .columns.omega{
+	    min-height:53.8em;
+>>>>>>> origin/master
+		}
+	#content UL#products LI{
+		width:18.7%;
+		}
+	#tabs .product{
+		margin:0 0.7em 1.9em 0.7em;
 		}
 }
 

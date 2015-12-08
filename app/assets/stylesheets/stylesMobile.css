@@ -310,6 +310,9 @@
 				    text-align:center;
 				    width:29%;
 					}
+			#content UL#products{
+				margin:0 0 1.9em 0;
+				}
 		#footer .left-footerContent{
 		    margin:0 0 1em 0;
 		    width:100%;
